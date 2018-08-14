@@ -22,9 +22,20 @@ $masthead-link-color-hover  : $theme-orange !default;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+
+/*
+   FONT
+   ========================================================================== */
+
+.page__content p, .page__content li, .page__content dl {
+  font-size: 0.8em;
+}
+
+
 /*
    POST PREVIEW
    ========================================================================== */
+
 h3.archive__date {
   margin: 0 0 0 0;
   font-size: $type-size-6;
