@@ -56,7 +56,7 @@ reCaptcha:
   siteKey                :
   secret                 :
 atom_feed:
-  path                   : "atom.xml"
+  path                   : "feed.xml"
 search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
@@ -232,7 +232,7 @@ category_archive:
   type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: jekyll-archives
+  type: liquid
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:

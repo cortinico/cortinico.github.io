@@ -4,20 +4,35 @@
 
 @charset "utf-8";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+// Color Customization
 
-// Color tweaks
-$theme-orange               : #d28445 !default;
-$theme-grey                 : #2c3e50 !default;
+$primary-color        : #191919 !default;
+$primary-light-color  : #292929 !default;
+$primary-dark-color   : #000000 !default;
+$secondary-color      : #06d6a0 !default;
+$secondary-light-color: #63ffd1 !default;
+$secondary-dark-color : #00a371 !default;
+$primary-text-color   : #ffffff !default;
+$secondary-text-color : #000000 !default;
 
-$body-color                 : #fff !default;
-$navigation-color           : $theme-grey !default;
-$link-color                 : $theme-orange !default;
-$link-color-hover           : $theme-orange !default;
-$masthead-link-color        : #fff !default;
-$masthead-link-color-hover  : $theme-orange !default;
+$body-color                 : $primary-text-color !default;
+$navigation-color           : $primary-light-color !default;
+$link-color                 : $secondary-color !default;
+$link-color-hover           : $secondary-light-color !default;
+$masthead-link-color        : $primary-text-color !default;
+$masthead-link-color-hover  : $secondary-color !default;
 
+// Font Customization
+
+$old-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
+  "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$montserrat: 'Montserrat', $old-sans-serif;
+$raleway: 'Raleway', $old-sans-serif;
+
+$global-font-family: $raleway !default;
+$header-font-family: $montserrat !default;
+$sans-serif: $raleway !default;
+$sans-serif-narrow: $raleway !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -28,7 +43,7 @@ $masthead-link-color-hover  : $theme-orange !default;
    ========================================================================== */
 
 .page__content p, .page__content li, .page__content dl {
-  font-size: 0.8em;
+  font-size: $type-size-6;
 }
 
 
@@ -96,6 +111,7 @@ h3.archive__date {
 /*
    NAVIGATION BAR
    ========================================================================== */
+
 .masthead {
   background-color: $navigation-color;
   border-bottom: 1px solid $navigation-color;
@@ -103,10 +119,9 @@ h3.archive__date {
 
 .greedy-nav {
   background: $navigation-color;
-  text-transform: uppercase;
 
   a {
-    font-size: $type-size-4;
+    font-size: $type-size-5;
   }
 
   button {
@@ -135,5 +150,37 @@ h3.archive__date {
   color: $masthead-link-color;
   &:hover {
     color: $masthead-link-color-hover;
+  }
+}
+
+/*
+   HEADER BOX
+   ========================================================================== */
+
+.header_box {
+  color: $primary-text-color;
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5);
+
+  .author__avatar {
+    display: table-cell;
+    vertical-align: top;
+    width: 60px;
+    height: 60px;
+
+    img {
+      max-width: 180px;
+      border-radius: 50%;
+
+      padding: 8px;
+      border: 3px solid #f2f2f2;      
+    }
+  }
+
+  a {
+      font-size: $type-size-4;
+      margin: 0em 0.3em;
+      &:hover {
+        color: $secondary-color;
+      }
   }
 }
