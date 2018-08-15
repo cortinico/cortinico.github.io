@@ -4,7 +4,9 @@
 
 @charset "utf-8";
 
-// Color Customization
+/*
+  PALETTE
+  ======================= */
 
 $primary-color        : #191919 !default;
 $primary-light-color  : #292929 !default;
@@ -22,7 +24,9 @@ $link-color-hover           : $secondary-light-color !default;
 $masthead-link-color        : $primary-text-color !default;
 $masthead-link-color-hover  : $secondary-color !default;
 
-// Font Customization
+/*
+  FONT CUSTOMIZATION
+  ======================= */
 
 $old-sans-serif: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",
   "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -39,17 +43,24 @@ $sans-serif-narrow: $raleway !default;
 
 
 /*
-   FONT
-   ========================================================================== */
+  PAGE HERO
+  ======================= */
+
+.page__hero--overlay {
+  padding: 8em 0;
+}
+
+/*
+  FONT SIZING
+  ======================= */
 
 .page__content p, .page__content li, .page__content dl {
   font-size: $type-size-6;
 }
 
-
 /*
-   POST PREVIEW
-   ========================================================================== */
+  POST PREVIEW
+  ======================= */
 
 h3.archive__date {
   margin: 0 0 0 0;
@@ -107,14 +118,17 @@ h3.archive__date {
   margin-bottom: 2em;
 }
 
-
 /*
-   NAVIGATION BAR
-   ========================================================================== */
+  NAVIGATION BAR
+  ======================= */
 
 .masthead {
   background-color: $navigation-color;
   border-bottom: 1px solid $navigation-color;
+
+  &__inner-wrap {
+    padding: 0.3em 1em;
+  }
 }
 
 .greedy-nav {
