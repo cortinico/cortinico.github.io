@@ -4,7 +4,7 @@ main:
     url: /blog
   # - title: "TIL"
     # url: /tags/til
-  - title: "About"
-    url: /about
   - title: "Talks"
     url: /talks
+  - title: "About"
+    url: /about

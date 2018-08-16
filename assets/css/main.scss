@@ -42,6 +42,10 @@ $sans-serif-narrow: $raleway !default;
 @import "minimal-mistakes"; // main partials
 
 
+strong, b {
+  font-weight: 700
+}
+
 /*
   PAGE HERO
   ======================= */

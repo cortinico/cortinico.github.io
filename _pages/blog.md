@@ -1,11 +1,12 @@
 ---
 title: "Blog"
 layout: posts
-excerpt: "TODO"
+excerpt: "My personal blog. We talk about Android, Community, Public Speaking and Travels"
 sitemap: false
 permalink: /blog
 author_profile: true
 header:
-    overlay_image: "/assets/images/header-about.jpg"
+    overlay_filter: "0.6"
+    overlay_image: "/assets/images/header-blog.jpg"
     show_overlay_excerpt: false
 ---

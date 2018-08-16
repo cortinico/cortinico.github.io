@@ -18,7 +18,7 @@ locale                   : "en" # TODO Check me
 title                    : "Nicola Corti"
 title_separator          : "-"
 name                     : "Nicola Corti"
-description              : "Android Developer"
+description              : "Personal website of Nicola Corti. We talk about Android Development, Public Speaking, Community and Travelling"
 url                      : "https://cortinico.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cortinico/cortinico.github.io"

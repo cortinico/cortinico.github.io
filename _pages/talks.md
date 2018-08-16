@@ -1,13 +1,14 @@
 ---
 title: "Talks"
 layout: single
-excerpt: "Some of the public events talking I've done."
-sitemap: false
+excerpt: "List of talks, seminars and workshops I've done."
+sitemap: true
 permalink: /talks
 author_profile: true
 header:
+    overlay_filter: "0.6"
     overlay_image: "/assets/images/header-talks.jpg"
-    show_overlay_excerpt: true
+    show_overlay_excerpt: false
 ---
 
 # Upcoming
@@ -17,25 +18,26 @@ header:
 
 # 2018
 
-* Kotlin User Group Hamburg - [What's up next for Kotlin?](http://bit.ly/kotlin13)
-* Droidcon Berlin 2018 - [The Curious Case of Android Button](http://bit.ly/androidbuttons)
-* After I/O GDG Heraklion - [The Curious Case of Android Button](http://bit.ly/androidbuttons)
-* After I/O GDG Heraklion - [Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
-* GDG Hamburg Android - [The Curious Case of Android Button](http://bit.ly/androidbuttons)
-* Android Makers 2018 - [The Curious Case of Android Button](http://bit.ly/androidbuttons)
-* GDG DevFest Pisa 0.1 - [Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
+* Kotlin User Group Hamburg - [<i class="fab fa-slideshare"></i> What's up next for Kotlin?](http://bit.ly/kotlin13)
+* Droidcon Berlin 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons) [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=6MmzwZMYWoA)
+* After I/O GDG Heraklion - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
+* After I/O GDG Heraklion - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
+* GDG Hamburg Android - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
+* Android Makers 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
+* GDG DevFest Pisa 0.1 - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
+* GDG Bremen - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
 
 # 2017
 
-* GDG DevFest Hamburg - [Android Things, The IoT Platform for everyone](http://bit.ly/devfesthh-iot)
-* Codemotion Milan 2017 - [Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
-* Codemotion Berlin 2017 - [Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
-* Mobiconf 2017 - [Building UI Consistent Android Apps](http://bit.ly/uiconsistency) (**Best Speaker Award**)
-* GDG Pisa - [The voice assistant you’ve always wanted...with Actions on Google!](http://bit.ly/actionsongoogle)
+* GDG DevFest Hamburg - [<i class="fab fa-slideshare"></i> Android Things, The IoT Platform for everyone](http://bit.ly/devfesthh-iot)
+* Codemotion Milan 2017 - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
+* Codemotion Berlin 2017 - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
+* Mobiconf 2017 - (**Best Speaker Award** 🎉) [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency) [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=Af6HUzlF-7k)
+* GDG Pisa - [<i class="fab fa-slideshare"></i> The voice assistant you’ve always wanted...with Actions on Google!](http://bit.ly/actionsongoogle)
 
 # 2016
 
-* GDG Pisa - [Firebase: From Zero to Hero](http://bit.ly/firebasefrom0tohero)
-* Droidcon Italy 2016 - [Backend 4 Android Developers](https://backend4android.github.io/)
+* GDG Pisa - [<i class="fab fa-slideshare"></i> Firebase: From Zero to Hero](http://bit.ly/firebasefrom0tohero)
+* Droidcon Italy 2016 - [<i class="fab fa-slideshare"></i> Backend 4 Android Developers](https://backend4android.github.io/)
 * Google I/O Extended Pisa 2016 - Android Async HTTP Clients
-* GDG Pisa - [Go + AppEngine = <3](http://bit.ly/goappengine)
+* GDG Pisa - [<i class="fab fa-slideshare"></i> Go + AppEngine = <3](http://bit.ly/goappengine)
