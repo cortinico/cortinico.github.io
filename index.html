@@ -1,13 +1,11 @@
 ---
 layout: splash
 author_profile: false
+title: "Hi! I'm Nicola"
 
 header:
     overlay_image: "/assets/images/header-home.jpg"
-excerpt: "<div class='header_box'><div class='author__avatar'><img src='/assets/images/avatar.png' itemprop='image'></div><h2 class='page-title'>Android Development &<br/> Public Speaking</h2><a href='mailto:corti.nico@gmail.com'><i class='fas fa-envelope' aria-hidden='true'></i></a><a href='https://twitter.com/cortinico'><i class='fab fa-twitter' aria-hidden='true'></i></a><a href='https://github.com/cortinico'><i class='fab fa-github' aria-hidden='true'></i></a><a href='https://instagram.com/cortinico'><i class='fab fa-instagram' aria-hidden='true'></i></a><a href='https://linkedin.com/in/cortinico'><i class='fab fa-linkedin' aria-hidden='true'></i></a></div>"
-
-intro: 
-  - excerpt: 'Test message'
+excerpt: "<div class='header_box'><div class='author__avatar'><img src='/assets/images/avatar.png' itemprop='image'></div><h1 class='page__title typewriter-container'>I'm <span id='typewriter'></span></h1><a href='mailto:corti.nico@gmail.com'><i class='fas fa-envelope' aria-hidden='true'></i></a><a href='https://twitter.com/cortinico'><i class='fab fa-twitter' aria-hidden='true'></i></a><a href='https://github.com/cortinico'><i class='fab fa-github' aria-hidden='true'></i></a><a href='https://instagram.com/cortinico'><i class='fab fa-instagram' aria-hidden='true'></i></a><a href='https://linkedin.com/in/cortinico'><i class='fab fa-linkedin' aria-hidden='true'></i></a></div>"
 
 feature_row:
   - image_path: assets/images/header-blog.jpg
@@ -45,3 +43,34 @@ feature_row:
 
 {% include paginator.html %}
 </div>
+
+<script type="text/javascript">
+var app = document.getElementById('typewriter');
+
+var typewriter = new Typewriter(app, {
+    loop: true
+});
+
+typewriter.typeString('Android Engineer')
+    .pauseFor(1500)
+    .deleteChars(9)
+    .typeString(' Lov3')
+    .pauseFor(200)
+    .deleteChars(1)
+    .typeString('er')
+    .pauseFor(1500)
+    .deleteAll()
+    .typeString('Public Speaker')
+    .pauseFor(2500)
+    .deleteAll()
+    .typeString('Community')
+    .pauseFor(500)
+    .typeString(' Builder')
+    .pauseFor(2500)
+    .deleteChars(8)
+    .typeString(' Manager')
+    .pauseFor(1500)
+    .deleteAll()
+    .typeString('Traveller')
+    .start();  
+</script>
