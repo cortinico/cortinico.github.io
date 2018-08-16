@@ -2,7 +2,7 @@
 title: "How to organize your Community Conference?"
 categories: "Community"
 
-excerpt: "First post, finally!"
+excerpt: "Tips tricks and suggestions for the next community conference organizer."
 
 header:
   image: "/assets/images/post2.jpg"
