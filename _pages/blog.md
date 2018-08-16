@@ -2,7 +2,7 @@
 title: "Blog"
 layout: posts
 excerpt: "My personal blog. We talk about Android, Community, Public Speaking and Travels"
-sitemap: false
+sitemap: true
 permalink: /blog
 author_profile: true
 header:

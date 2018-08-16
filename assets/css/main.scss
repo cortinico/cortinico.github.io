@@ -56,6 +56,9 @@ strong, b {
 
 .typewriter-container {
   padding-top: 1em;
+  padding-bottom: 0.2em;
+  overflow: hidden;
+  white-space: nowrap;
 }
 
 .page__hero--overlay {

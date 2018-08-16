@@ -2,7 +2,7 @@
 title: "About"
 layout: single
 excerpt: "Hi there! My name is Nicola."
-sitemap: false
+sitemap: true
 permalink: /about
 author_profile: true
 header:
