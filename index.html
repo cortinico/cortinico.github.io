@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: splash
 author_profile: false
 
 header:
@@ -8,6 +8,40 @@ excerpt: "<div class='header_box'><div class='author__avatar'><img src='/assets/
 
 intro: 
   - excerpt: 'Test message'
+
+feature_row:
+  - image_path: assets/images/header-blog.jpg
+    alt: "Blog"
+    title: "Blog"
+    excerpt: "Android, Community and Public Speaking"
+    url: "/blog"
+  - image_path: assets/images/header-talks.jpg
+    alt: "Talks"
+    title: "Talks"
+    excerpt: "Slides &amp; Videos"
+    url: "/talks"
+  - image_path: assets/images/header-about.jpg
+    alt: "About"
+    title: "About"
+    excerpt: "Hi there, my name is Nicola."
+    url: "/about"
 ---
 
-{% include feature_row id="intro" type="center" %}
+<p align="center">
+	Welcome to my website. I'm Nicola Corti, an enthusiasth <strong>Android</strong> Engineer a <strong>Community</strong> lover and a <strong>Speaker</strong>.
+</p>
+
+<hr>
+
+{% include feature_row %}
+
+<div class="archive">
+
+<h3 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+</div>

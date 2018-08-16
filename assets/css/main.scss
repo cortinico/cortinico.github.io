@@ -83,6 +83,10 @@ h3.archive__date {
   color: white;
 }
 
+.archive_item p {
+  color: white;
+}
+
 .archive__item_titlecontainer {
   border-radius: $border-radius;
   position: absolute;
@@ -93,6 +97,12 @@ h3.archive__date {
   width:100%;
 }
 
+.feature__item--row .archive__item_titlecontainer {
+  background-color: rgba(0, 0, 0, 0.35);
+  padding: 0.2rem 0.2rem 0.2rem 1rem;
+  margin-bottom: 8px;
+}
+
 .archive__item-teaser, .archive__item-teaser-imageclickhandler {
   display: inline-block;
   background-size: cover;
@@ -100,6 +110,16 @@ h3.archive__date {
   position: relative;
   min-height: 240px;
   width: 100%;
+}
+
+.wrapped_body {
+  margin: 0em 10em;
+}
+
+
+
+.feature__item--row .archive__item-teaser {
+  min-height: 0px;
 }
 
 .archive__item-teaser-imageclickhandler {

@@ -1,8 +1,6 @@
 ---
 title: "Time has come!"
-categories: "Android"
-
-excerpt: "First post, finally!"
+excerpt: "TODO"
 
 header:
   image: "/assets/images/post1.jpg"
