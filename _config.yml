@@ -14,7 +14,7 @@
 # minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "en" # TODO Check me
+locale                   : "en"
 title                    : "Nicola Corti"
 title_separator          : "-"
 name                     : "Nicola Corti"
@@ -22,7 +22,7 @@ description              : "Personal website of Nicola Corti. We talk about Andr
 url                      : "https://ncorti.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cortinico/cortinico.github.io"
-teaser                   : "assets/images/teaser.jpg"
+teaser                   : "assets/images/og_default_header.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 150
 comments:
