@@ -37,7 +37,7 @@ I also really enjoy public speaking and sharing my experiences. You can checkout
 
 ## Travels
 
-In my free time, I travel! I really can't stop visiting new places and taking pictures. If you want to follow my travels, make sure to don't miss my [<i class="fab fa-instagram"></i>  Instagram profile](https://instagra.com/cortinico).
+In my free time, I travel! I really can't stop visiting new places and taking pictures. If you want to follow my travels, make sure to don't miss my [<i class="fab fa-instagram"></i>  Instagram profile](https://instagram.com/cortinico).
 
 Drop me a message if you're around. I'll be more than happy to offer you an Espresso ☕️!
 
