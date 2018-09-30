@@ -69,8 +69,8 @@ strong, b {
   FONT SIZING
   ======================= */
 
-.page__content p, .page__content li, .page__content dl {
-  font-size: $type-size-6;
+.talk-section {
+  font-size: 0.75em;
 }
 
 /*
@@ -126,8 +126,6 @@ h3.archive__date {
 .wrapped_body {
   margin: 0em 10em;
 }
-
-
 
 .feature__item--row .archive__item-teaser {
   min-height: 0px;

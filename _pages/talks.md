@@ -15,6 +15,7 @@ header:
 
 * Codemotion Milan 2018 - The Curious Case of Android Button
 * Mobiconf 2018 - The Curious Case of Android Button
+{: .talk-section }
 
 # 2018
 
@@ -26,6 +27,7 @@ header:
 * Android Makers 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
 * GDG DevFest Pisa 0.1 - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
 * GDG Bremen - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
+{: .talk-section }
 
 # 2017
 
@@ -34,6 +36,7 @@ header:
 * Codemotion Berlin 2017 - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
 * Mobiconf 2017 - (**Best Speaker Award** 🎉) [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency) [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=Af6HUzlF-7k)
 * GDG Pisa - [<i class="fab fa-slideshare"></i> The voice assistant you’ve always wanted...with Actions on Google!](http://bit.ly/actionsongoogle)
+{: .talk-section }
 
 # 2016
 
@@ -41,3 +44,4 @@ header:
 * Droidcon Italy 2016 - [<i class="fab fa-slideshare"></i> Backend 4 Android Developers](https://backend4android.github.io/)
 * Google I/O Extended Pisa 2016 - Android Async HTTP Clients
 * GDG Pisa - [<i class="fab fa-slideshare"></i> Go + AppEngine = <3](http://bit.ly/goappengine)
+{: .talk-section }
