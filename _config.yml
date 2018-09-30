@@ -187,6 +187,15 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      # To enable line numbers locally use {% highlight kotlin linenos %} and {% endhighlight %}
+      line_numbers: false
+      start_line: 1
 
 # Sass/SCSS
 sass:
