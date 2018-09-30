@@ -24,7 +24,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "cortinico/cortinico.github.io"
 teaser                   : "assets/images/og_default_header.jpg"
 # breadcrumbs            : false # true, false (default)
-words_per_minute         : 150
+words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
