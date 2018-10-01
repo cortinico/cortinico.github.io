@@ -128,7 +128,7 @@ fun Int?.isValid(): Boolean {
 }
 ```
 
-The stdlib has several functions to help you express your effects (`returns`, `returnsNotNull` and `callsInPlace`). Finally you can use the infix `implies` function to compose one effect with a boolean expression.
+The stdlib has several functions to help you express your effects (`returns`, `returnsNotNull` and `callsInPlace`). Finally, you can use the infix `implies` function to compose one effect with a boolean expression.
 
 ```kotlin
 fun Int?.isValid(): Boolean {
@@ -139,7 +139,7 @@ fun Int?.isValid(): Boolean {
 }
 ```
 
-Here we are saying that a call to `isValid` that returns true, will have as consequence that the receiver is not null:
+Here we are saying that a call to `isValid` that returns true, will have as a consequence that the receiver is not null:
 
 ```kotlin
 val aInt : Int? = getAnInt()
