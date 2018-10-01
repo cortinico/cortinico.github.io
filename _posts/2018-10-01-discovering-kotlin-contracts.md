@@ -2,7 +2,7 @@
 title: "Discovering Kotlin Contracts"
 categories: "Kotlin"
 
-excerpt: "Let's discover Kotlin Contracts, one of the new features of Kotlin 1.3 aimed to smooth the interactions between developers and the complier."
+excerpt: "Let's discover Kotlin Contracts, one of the new features of Kotlin 1.3 aimed to smooth the interactions between developers and the compiler."
 
 header:
     image: "/assets/images/posts/header-kotlin-contracts.jpg"
@@ -12,7 +12,7 @@ header:
 
 The next release of Kotlin, 1.3, is really near! Among the several features, I really enjoyed one that will allow library developers to write cleaner and better code: Kotlin contracts. 
 
-In this blogpost we'll see definitions, syntax and examples for Kotlin contracts. But first, let's start with a problem.
+In this blog post, we'll see definitions, syntax, and examples for Kotlin contracts. But first, let's start with a problem.
 
 # The Problem
 
@@ -36,9 +36,9 @@ The error is related to the `token.length` expression. The problem is that the t
 
 Actually, looking at the code we can be sure that `token` won't be nullable inside the `assertEquals` check. We are asserting that `token` shouldn't be nullable in the line above. 
 
-I was writing a very similar test few days ago... Wouldn't it be cool if the compiler could understand the scenario here? Unfortunately the 1.2.x. complier is not smart enough to understand this type restriction (from `String?` to `String`). Moreover, you can't really provide any hint to the complier to instruct it.
+I was writing a very similar test a few days ago... Wouldn't it be cool if the compiler could understand the scenario here? Unfortunately the 1.2.x. compiler is not smart enough to understand this type restriction (from `String?` to `String`). Moreover, you can't really provide any hint to the compiler to instruct it.
 
-Good news everyone! As of this weekend, that Kotlin code will compile. You can try it out on [TryKotlin](https://try.kotlinlang.org/#/UserProjects/esrk8qa8t4bn70pesme588u33e/kuvpsg85b27gucb8uvasn8utk9) by switching the Kotlin release in the the drop-down menu on the bottom right to **1.3.x**. This is possible because of **Kotlin Contracts**, introduced in this last iteration of the language.
+Good news everyone! As of this weekend, that Kotlin code will compile. You can try it out on [TryKotlin](https://try.kotlinlang.org/#/UserProjects/esrk8qa8t4bn70pesme588u33e/kuvpsg85b27gucb8uvasn8utk9) by switching the Kotlin release in the drop-down menu on the bottom right to **1.3.x**. This is possible because of **Kotlin Contracts**, introduced in this last iteration of the language.
 
 # Conference Driven Development
 
@@ -48,7 +48,7 @@ The first EAP (_early access preview_) of Kotlin 1.3 was announced on [July the 
 
 This weekend [KotlinConf](https://kotlinconf.com/) will take place in Amsterdam. I guess we can all bet on Kotlin 1.3.0 being one of the Keynote announcement. As soon as you'll bump that version number inside your project, you can start using contracts. 
 
-Please note that contracts are an **experimental feature** in Kotlin 1.3. So, as happened for coroutines, you need to explicitally opt-in to use them (either with the `@UseExperimental` or via the compiler flag `-Xuse-experimental`).
+Please note that contracts are an **experimental feature** in Kotlin 1.3. So, as happened for coroutines, you need to explicitly opt-in to use them (either with the `@UseExperimental` or via the compiler flag `-Xuse-experimental`).
 
 On the other hand, several functions inside the stdlib have already been updated with a contract and you can directly benefit from them, let's see how.
 
@@ -58,21 +58,21 @@ The problem in the first snippet is coming from the fact that you, developer, kn
 
 Although the Kotlin compiler turns out to be really smart in type inference or in smart casting, it's not capable to understand that after an `assertNotNull` call the type of the receiver can be restricted.
 
-Kotlin contracts are exactly solving this kind of problem. With a contract you can actually provide **knowledge about a function behavior** to the compiler in order to help it performing a **more complete analysis** on your code, with the final goal to **write cleaner code**.
+Kotlin contracts are exactly solving this kind of problem. With a contract, you can actually provide **knowledge about a function behavior** to the compiler in order to help it perform a **more complete analysis** on your code, with the final goal to **write cleaner code**.
 
 To better understand Kotlin contracts, we need to introduce the concept of **effects**.
 
 ## Effects
 
-An effect represent a **piece of knowledge** related to a function behavior. A Kotlin contract is nothing more than a **collection of effects** attached to a function. Whenever you call a function, all of his effects will be **fired**. The compiler will collect all the fired effects to enrich its analysis.
+An effect represents a **piece of knowledge** related to a function behavior. A Kotlin contract is nothing more than a **collection of effects** attached to a function. Whenever you call a function, all of his effects will be **fired**. The compiler will collect all the fired effects to enrich its analysis.
 
 The definition of effect here is a [bit vague](https://github.com/Kotlin/KEEP/blob/3490e847fe51aa6deb869654029a5a514638700e/proposals/kotlin-contracts.md#effects), and looks like is intentional to do not restrict the scope of contracts. 
 
 However, in the current release of Kotlin, there are **4** supported effects (see [Effects.kt](https://github.com/JetBrains/kotlin/blob/7b66a4d295eb625af3b066476e8f7171a6276501/libraries/stdlib/src/kotlin/contracts/Effect.kt)):
 
 * `Returns(value)` Represents that the function returned successfully (e.g. without throwing an exception). You can also optionally pass a `value` (of type `Any?`) to represents which value the function returned.
-* `ReturnsNotNull` Represents that the function returned successfully a non nullable value.
-* `ConditionalEffect(effect, booleanExpression)` Represents a composition of an Effect and a boolean expression, guaranteed to be true if the effects is fired (see the [paragraph below](#conditionaleffect)).
+* `ReturnsNotNull` Represents that the function returned successfully a non-nullable value.
+* `ConditionalEffect(effect, booleanExpression)` Represents a composition of an Effect and a boolean expression, guaranteed to be true if the effect is fired (see the [paragraph below](#conditionaleffect)).
 * `CallsInPlace(lambda, kind)` Represents a constraint on place and number of invocation of the passed `lambda` parameter (see the [paragraph below](#callsinplace)).
 
 ### ConditionalEffect
@@ -83,7 +83,7 @@ The first two effects (`Returns` and `ReturnsNotNull`) are usually composed with
 effect => booleanExpression
 ```
 
-So for example, We can create a conditional effect to represent that whenever a function **returns**, one of his parameter is **not null** (that's exactly what we would love to achieve for the `assertNotNull` function).
+So for example, We can create a conditional effect to represent that whenever a function **returns**, one of his parameters is **not null** (that's exactly what we would love to achieve for the `assertNotNull` function).
 
 Please note that in the current release of Kotlin contracts there are several limitations on the `Returns(value)` and on the boolean expression
 
@@ -97,7 +97,7 @@ For `Returns(value)` only `true`, `false` and `null` are supported.
 
 The `CallsInPlace(lambda, kind)` effect allows you to provide constraints on when/where/and how often the provided **lambda will be called**.
 
-Specifically this effect will imply that:
+Specifically, this effect will imply that:
 
 * `lambda` _will not be called after the call to owner-function is finished_. In other words, the `lambda` will be called locally and will not be deferred after the function returns.
 
@@ -160,11 +160,11 @@ I invite you to take a look at the [contracts KEEP](https://github.com/Kotlin/KE
 
 # Examples
 
-Let's see some examples of usage of the Kotlin contracts. A great source of inspiration is definitely the stdlib and other Jetbrain's Kotlin packages. Several functions have already been enriched with contracts to provide better experience to client developers. Let's see some of them.
+Let's see some examples of usage of the Kotlin contracts. A great source of inspiration is definitely the stdlib and other Jetbrain's Kotlin packages. Several functions have already been enriched with contracts to provide a better experience to client developers. Let's see some of them.
 
 ## Returns Examples
 
-Inside the `kotlin-test` package we can find several functions to write more idiomatic JUnit tests. Some of those now have a contract: `assertTrue`, `assertFalse` and `assertNotNull`.
+Inside the `kotlin-test` package, we can find several functions to write more idiomatic JUnit tests. Some of those now have a contract: `assertTrue`, `assertFalse` and `assertNotNull`.
 
 ```kotlin
 fun assertTrue(actual: Boolean, message: String? = null) {
@@ -236,11 +236,11 @@ You can find more examples related to Kotlin contracts in the `samples.contract`
 
 # Limitations
 
-* The biggest limitation of contracts is definitely that they are **not verified**. In other words: **You're responsible of writing correct contracts**. If you add a contract with an effect that doesn't reflect the real behavior of a function, you might experience crashes or unexpected behavior.
+* The biggest limitation of contracts is definitely that they are **not verified**. In other words: **You're responsible for writing correct contracts**. If you add a contract with an effect that doesn't reflect the real behavior of a function, you might experience crashes or unexpected behavior.
 
 * `returns(value)` and `implies` boolean expression allowed values are really limited (see the [ConditionalEffect](#conditionaleffect) paragraph).
 
-* Contracts can be applied only to **top level** functions (as inheritance is not supported yet).
+* Contracts can be applied only to **top-level** functions (as inheritance is not supported yet).
 
 * Contracts can be applied only to **block** functions (as it needs to be the first statement in the body of a function).
 
@@ -248,9 +248,9 @@ You can find more examples related to Kotlin contracts in the `samples.contract`
 
 # Conclusions
 
-Kotlin contracts are a great tool to enrich the complier analysis and they can be really helpful to write cleaner and better code. When playing around with contracts, please never forget that contracts are not verified. The complier can't do magic and you're ultimately responsible for your contracts.
+Kotlin contracts are a great tool to enrich the compiler analysis and they can be really helpful to write cleaner and better code. When playing around with contracts, please never forget that contracts are not verified. The compiler can't do magic and you're ultimately responsible for your contracts.
 
-Their API and the set of supported effects might look restricted for now. But I have the feeling they are setting the foundation for a (hopefully) long term relationship between Kotlin developers and the Kotlin compiler 🤝.
+Their API and the set of supported effects might look restricted for now. But I have the feeling they are setting the foundation for a (hopefully) long-term relationship between Kotlin developers and the Kotlin compiler 🤝.
 
 If you want to talk more about Kotlin contracts, you can reach me out as [@cortinico on Twitter<i class="fab fa-twitter"></i>](https://twitter.com/cortinico).
 
