@@ -38,15 +38,15 @@ Actually, looking at the code we can be sure that `token` won't be nullable insi
 
 I was writing a very similar test few days ago... Wouldn't it be cool if the compiler could understand the scenario here? Unfortunately the 1.2.x. complier is not smart enough to understand this type restriction (from `String?` to `String`). Moreover, you can't really provide any hint to the complier to instruct it.
 
-Good news everyone! As of next week, that Kotlin code will compile. You can try it out on [TryKotlin](https://try.kotlinlang.org/#/UserProjects/esrk8qa8t4bn70pesme588u33e/kuvpsg85b27gucb8uvasn8utk9) by switching the Kotlin release in the the drop-down menu on the bottom right to **1.3.x**. This is possible because of **Kotlin Contracts**, introduced in this last iteration of the language.
+Good news everyone! As of this weekend, that Kotlin code will compile. You can try it out on [TryKotlin](https://try.kotlinlang.org/#/UserProjects/esrk8qa8t4bn70pesme588u33e/kuvpsg85b27gucb8uvasn8utk9) by switching the Kotlin release in the the drop-down menu on the bottom right to **1.3.x**. This is possible because of **Kotlin Contracts**, introduced in this last iteration of the language.
 
 # Conference Driven Development
 
-To better understand what's going to happen next week, we need to give some timeline of the next Kotlin milestone releases:
+To better understand what's going to happen this weekend, we need to give some timeline of the next Kotlin milestone releases:
 
 The first EAP (_early access preview_) of Kotlin 1.3 was announced on [July the 26th](https://blog.jetbrains.com/kotlin/2018/07/see-whats-coming-in-kotlin-1-3-m1/). Contracts were actually introduced in the second EAP, released on [August the 8th](https://blog.jetbrains.com/kotlin/2018/08/kotlin-1-3-m2/). As of [September the 20th](https://blog.jetbrains.com/kotlin/2018/09/kotlin-1-3-rc-is-here-migrate-your-coroutines/) Kotlin 1.3 is in the Release Candidate phase, so the stable release should be really near. 
 
-Next week [KotlinConf](https://kotlinconf.com/) will take place in Amsterdam. I guess we can all bet on Kotlin 1.3.0 being one of the Keynote announcement. As soon as you'll bump that version number inside your project, you can start using contracts. 
+This weekend [KotlinConf](https://kotlinconf.com/) will take place in Amsterdam. I guess we can all bet on Kotlin 1.3.0 being one of the Keynote announcement. As soon as you'll bump that version number inside your project, you can start using contracts. 
 
 Please note that contracts are an **experimental feature** in Kotlin 1.3. So, as happened for coroutines, you need to explicitally opt-in to use them (either with the `@UseExperimental` or via the compiler flag `-Xuse-experimental`).
 
