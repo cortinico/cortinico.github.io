@@ -6,7 +6,7 @@ excerpt: "Let's discover Kotlin Contracts, one of the new features of Kotlin 1.3
 
 header:
     image: "/assets/images/posts/header-kotlin-contracts.jpg"
-    teaser: "/assets/images/posts/header-kotlin-contracts.jpg"
+    teaser: "/assets/images/posts/teaser-kotlin-contracts.jpg"
     caption: "Hook Lighthouse - Ireland"
 ---
 
