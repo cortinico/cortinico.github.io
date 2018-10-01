@@ -128,7 +128,7 @@ fun Int?.isValid(): Boolean {
 }
 ```
 
-The stdlib has several functions to help you express your effects (`return`, `returnNotNull` and `callsInPlace`). Finally you can use the infix `implies` function to compose one effect with a boolean expression.
+The stdlib has several functions to help you express your effects (`returns`, `returnsNotNull` and `callsInPlace`). Finally you can use the infix `implies` function to compose one effect with a boolean expression.
 
 ```kotlin
 fun Int?.isValid(): Boolean {
