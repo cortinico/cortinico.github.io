@@ -19,7 +19,7 @@ In this blog post, we'll see definitions, syntax, and examples for Kotlin contra
 Currently, the following Kotlin code is invalid:
 
 {% highlight kotlin linenos %}
-@Test fun testMyTokenLenght() {
+@Test fun testMyTokenLength() {
     val token : String? = getMyToken();
 
     assertNotNull(token)
@@ -46,7 +46,7 @@ To better understand what's going to happen this weekend, we need to give some t
 
 The first EAP (_early access preview_) of Kotlin 1.3 was announced on [July the 26th](https://blog.jetbrains.com/kotlin/2018/07/see-whats-coming-in-kotlin-1-3-m1/). Contracts were actually introduced in the second EAP, released on [August the 8th](https://blog.jetbrains.com/kotlin/2018/08/kotlin-1-3-m2/). As of [September the 20th](https://blog.jetbrains.com/kotlin/2018/09/kotlin-1-3-rc-is-here-migrate-your-coroutines/) Kotlin 1.3 is in the Release Candidate phase, so the stable release should be really near. 
 
-This weekend [KotlinConf](https://kotlinconf.com/) will take place in Amsterdam. I guess we can all bet on Kotlin 1.3.0 being one of the Keynote announcement. As soon as you'll bump that version number inside your project, you can start using contracts. 
+This weekend [KotlinConf](https://kotlinconf.com/) will take place in Amsterdam. I guess we can all bet on Kotlin 1.3.0 being one of the Keynote announcements. As soon as you'll bump that version number inside your project, you can start using contracts. 
 
 Please note that contracts are an **experimental feature** in Kotlin 1.3. So, as happened for coroutines, you need to explicitly opt-in to use them (either with the `@UseExperimental` or via the compiler flag `-Xuse-experimental`).
 
@@ -70,8 +70,8 @@ The definition of effect here is a [bit vague](https://github.com/Kotlin/KEEP/bl
 
 However, in the current release of Kotlin, there are **4** supported effects (see [Effects.kt](https://github.com/JetBrains/kotlin/blob/7b66a4d295eb625af3b066476e8f7171a6276501/libraries/stdlib/src/kotlin/contracts/Effect.kt)):
 
-* `Returns(value)` Represents that the function returned successfully (e.g. without throwing an exception). You can also optionally pass a `value` (of type `Any?`) to represents which value the function returned.
-* `ReturnsNotNull` Represents that the function returned successfully a non-nullable value.
+* `Returns(value)` Represents that the function returns successfully (e.g. without throwing an exception). You can also optionally pass a `value` (of type `Any?`) to represent which value the function returned.
+* `ReturnsNotNull` Represents that the function returns successfully a non-nullable value.
 * `ConditionalEffect(effect, booleanExpression)` Represents a composition of an Effect and a boolean expression, guaranteed to be true if the effect is fired (see the [paragraph below](#conditionaleffect)).
 * `CallsInPlace(lambda, kind)` Represents a constraint on place and number of invocation of the passed `lambda` parameter (see the [paragraph below](#callsinplace)).
 
@@ -143,7 +143,7 @@ Here we are saying that a call to `isValid` that returns true, will have as a co
 
 ```kotlin
 val aInt : Int? = getAnInt()
-if (!aInt.isValid()){
+if (aInt.isValid()){
     // Here the compiler knows that `aInt` is not nullable
     // thanks to the contract on `isValid`
 } else {
@@ -188,7 +188,7 @@ fun <T : Any> assertNotNull(actual: T?, message: String? = null): T {
 }
 ```
 
-If you don't want to use the `kotlin-test` package, you can still define your own assert* wrappers that delegates to the JUnit functions:
+If you don't want to use the `kotlin-test` package, you can still define your own assert* wrappers that delegate to the JUnit functions:
 
 ```kotlin
 fun assertNotNull(actual: Any?) {
