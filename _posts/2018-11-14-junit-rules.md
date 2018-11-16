@@ -8,7 +8,7 @@ header:
     image: "/assets/images/posts/header-junit-rules.jpg"
     teaser: "/assets/images/posts/teaser-junit-rules.jpg"
     caption: "Golden Gate Bridge - SF"
----
+    ---
 
 Today I saw yet another JUnit test that was inheriting from a superclass...this is me just after:
 
@@ -46,15 +46,41 @@ The JUnit framework offers us some tools:
 
 But the best tool to reuse code are **Rules**. JUnit Rules are simple way to modify the behavior of all the tests in a class.
 
-From the JUnit documentation:
+The JUnit defines them in this way:
 
 > Rules can do everything that could be done previously with methods annotated with @Before, @After, @BeforeClass, or @AfterClass, but they are more powerful, and more easily shared between projects and classes.
 
 # A simple JUnit @Rule
 
+To create a Rule, you need to implement the `TestRule` interface. This interface has just one method: `apply` method. With this method you can specify _how_ your Rule should modify the test execution.
 
+You can think at the `apply` conceptually as a `map()`. It takes a `Statement` as input and returns another `Statement` as output.
+
+Let's see an example of a Rule that will TODO:
+
+```kotlin
+BLA BLA BLA BLA
+```
+
+Here you can see that we modify the test to do TODO
+
+Using your Rule will be just one line of code:
+
+```
+@get:Rule TODO
+```
+
+The `@Rule` annotation will make sure your Rule is executed **Before every test** (to understand how @Before, @BeforeClass, @After, @AfterClass and @Rule interacts each other, see TODO). 
 
 # Annotations + @Rule = <3
+
+Great! So now you know how to write Rules! 
+
+What about if I want to customize my rule for every single test? For example, I might want this rule to TODO.
+
+You might have noticed that there is one small detail that I left behind: the `apply` method has **two parameters**. The second parameter is a `Description`. This 
+
+
 
 .
 .
