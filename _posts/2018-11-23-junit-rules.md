@@ -41,6 +41,8 @@ Let's say that you have your group of tests, `ItLocaleTest.kt`, `DeLocaleTest.kt
 
 What if tomorrow you want to write another test that has both initialization, like a logged in user with the FR locale? Unfortunately you can't because Kotlin/Java don't support **multiple inheritance** (your test can have only one superclass).
 
+!!! TODO Prefer composition over inheritance !!!
+
 The JUnit framework offers us some tools:
 
 * An Annotation to run a method **before all** the test in a file (`@BeforeClass` in JUnit4 or `@BeforeAll` in JUnit5)
