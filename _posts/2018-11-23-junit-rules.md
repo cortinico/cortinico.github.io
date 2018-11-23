@@ -80,7 +80,7 @@ class LogTimingRule : TestRule {
     override fun apply(s: Statement, d: Description): Statement {
         return object : Statement() {
             override fun evaluate() {
-            	// Do something before the test.
+                // Do something before the test.
                 val startTime = System.currentTimeMillis()
                 try {
                     // Execute the test.
@@ -323,7 +323,16 @@ Make sure to understand the execution order of JUnit methods, in order to don't 
 
 # Conclusions
 
+Do you want to reuse your testing code? Create a JUnit Rule! 
+
+Inheritance here is not generally a good idea. You might have the _illusion_ you're reusing code, but you'll probably end up in problems really soon. In your testing code, prefer composition over inheritance.
+
+**Don't be lazy** and start writing your Rules today!
+
+If you want to talk more about testing, you can reach me out as [@cortinico on Twitter<i class="fab fa-twitter"></i>](https://twitter.com/cortinico).
+
 # References
 
 * [JUnit4 Wiki - Rules](https://github.com/junit-team/junit4/wiki/rules)
+* [JUnit4 Wiki - Test Fixtures](https://github.com/junit-team/junit4/wiki/Test-fixtures)
 * [JUnit API - Rule](https://junit.org/junit4/javadoc/4.12/org/junit/Rule.html)
