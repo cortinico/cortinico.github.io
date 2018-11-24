@@ -281,7 +281,7 @@ class OrderTest {
 
 So I assume to have a `PrintRule` that prints a line before and after the execution of the `Statement`. The output on the console is:
 
-```
+```java
 @ClassRule before statement
  @BeforeClass
   @Rule before statement
