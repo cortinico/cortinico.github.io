@@ -203,17 +203,13 @@ val retryCount = description
 
 Again we filter the annotations getting only the `RetryOnFailure` and we get the first result. If the result is missing, the `firstOrNull` method will return null and thanks to the elvis operator (`?:`) we'll default the field to 0.
 
-Then we can loop through the `retryCount` till we get a success:
+Then we can try to run the test `retryCount + 1` times till we get a success:
 
 ```kotlin
-var failureCause: Throwable? = null
-for (i in 0 until retryCount + 1) {
-    try {
-        statement.evaluate()
-        return
-    } catch (t: Throwable) {
-        failureCause = t
-    }
+repeat(retryCount + 1) { _ ->
+    runCatching { statement.evaluate() }
+            .onSuccess { return }
+            .onFailure { failureCause = it }
 }
 ```
 
@@ -238,14 +234,13 @@ class RetryRule : TestRule {
                         ?.retryCount ?: 0
 
                 var failureCause: Throwable? = null
-                for (i in 0 until retryCount + 1) {
-                    try {
-                        statement.evaluate()
-                        return
-                    } catch (t: Throwable) {
-                        failureCause = t
-                    }
+
+                repeat(retryCount + 1) { _ ->
+                    runCatching { statement.evaluate() }
+                            .onSuccess { return }
+                            .onFailure { failureCause = it }
                 }
+
                 println("Test ${description.methodName} - Giving up after ${retryCount + 1} attemps")
                 failureCause?.printStackTrace()
             }
