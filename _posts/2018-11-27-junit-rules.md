@@ -114,11 +114,13 @@ The `@Rule` annotation will make sure your Rule is executed **Before every test*
 
 Great! So now we know how to write Rules.
 
-What about if I want to **customize** my rule for every single test? For example, I might want to turn on the logging of the timing only for some specific test.
+What about if you want to **customize** your rule for every single test? For example, I might want to turn on the logging of the timing only for some specific test.
 
-You might have noticed that there is one small detail that I left behind: the `apply` method has **two parameters**. The second parameter is a `Description`. This parameter gives us access to some metadata for every test. A way to customize our Rule to be more flexible for every test is to use **annotations**, and the `Description` has exactly all the methods to give us this support.
+You might have noticed that there is one small detail that I left behind: the `apply` method has **two parameters**. 
 
-Let's modify the `LogTimingRule` to have the logging disabled by default for every test, and to have it enabled only for tests annotated with `@LogTiming` annotation. 
+The second parameter is a `Description`. This parameter gives us access to some metadata for every test. A way to customize our Rule to be more flexible for every test is to use **annotations**, and the `Description` class has exactly all the methods to give us this support.
+
+Let's modify the `LogTimingRule` to have the logging disabled by default for every test, and to have it **enabled only for tests annotated** with the `@LogTiming` annotation. 
 
 First, we create the new annotation:
 
@@ -162,9 +164,9 @@ var enabled = description
         .isNotEmpty()
 ```
 
-Here we get all the annotations from the `Description` field, we filter them getting only the `LogTiming` with the `filterIsInstance` method, and we set the `enabled` flag to true if the result is not empty (please note that also the `@Test` annotation will be inside the `.annotations` collection).
+Here we get all the annotations from the `description` field, we filter them getting only the `LogTiming` with the `filterIsInstance` method, and we set the `enabled` flag to true if the result is not empty (please note that also the `@Test` annotation will be inside the `.annotations` collection).
 
-Now we can simply use our annotation on top of our test to enable logging!
+Now we can simply use our annotation on top of our test to enable logging only for the tests we are interested in!
 
 ```kotlin 
 class MySampleTest {
@@ -203,7 +205,7 @@ val retryCount = description
     ?.retryCount ?: 0
 ```
 
-Again we filter the annotations getting only the `RetryOnFailure` and we get the first result. If the result is missing, the `firstOrNull` method will return null and thanks to the elvis operator (`?:`) we'll default the field to 0.
+Again we filter the annotations getting only the `RetryOnFailure` and we get the first result. If the result is missing, the `firstOrNull` method will return null and thanks to the elvis operator (`?:`) we'll default the value to 0.
 
 Then we can try to run the test `retryCount + 1` times till we get a success:
 
@@ -251,11 +253,11 @@ class RetryRule : TestRule {
 }
 ```
 
-# Use those rules!
+# Use the source, Luke!
 
 I've collected the code of those rules on a Maven package. You can use them just by adding this line to your gradle file:
 
-```gradle 
+```groovy 
 dependencies {
     // For JUnit Tests
     testImplementation 'com.ncorti:rules4android:1.0.0'
@@ -269,7 +271,7 @@ And you can find the source code on GitHub: [cortinico/rules4android](https://gi
 
 # On method execution order
 
-You're probably wondering how your `@Rule` interacts with all the other annotations provided by JUnit: `@Before`, `@After`, `@BeforeClass`, `@AfterClass` and `@ClassRule`. The better way to discover it is just try:
+You're probably wondering how your `@Rule` interacts with all the other annotations provided by JUnit: `@Before`, `@After`, `@BeforeClass`, `@AfterClass` and `@ClassRule`. The better way to discover it is just to try:
 
 ```kotlin
 class OrderTest {
@@ -322,6 +324,10 @@ Make sure to understand the execution order of JUnit methods, in order to don't 
 # Appendix: On @get:Rule
 
 You're probably also wondering why do we need to use `@get:Rule` if you're using Kotlin and not just `@Rule` as you would do in Java.
+
+```kotlin
+@get:Rule val timingRule = LogTimingRule()
+```
 
 JUnit needs to have access to your rule, so it needs to be **public**. If you remove the `@get:` from the annotation, the test runner will fail with:
 
