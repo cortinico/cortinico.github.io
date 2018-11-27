@@ -294,7 +294,7 @@ class OrderTest {
 }
 ```
 
-So I assume to have a `PrintRule` that prints a line before and after the execution of the `Statement`. The output on the console is:
+So I assume to have a [`PrintRule`](https://gist.github.com/cortinico/7a65aa2b05a72ae00624007a0ea4616d) that prints a line before and after the execution of the `Statement`. The output on the console is:
 
 ```java
 @ClassRule before statement
