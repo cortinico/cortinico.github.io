@@ -11,13 +11,13 @@ header:
     show_overlay_excerpt: false
 ---
 
+<!-- 
 # Upcoming
-
-* Codemotion Milan 2018 - The Curious Case of Android Button
-{: .talk-section }
+{: .talk-section } -->
 
 # 2018
 
+* Codemotion Milan 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
 * Mobiconf 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
 * GDG Hamburg Android Meetup - [<i class="fab fa-slideshare"></i> Discovering Kotlin Contracts](http://bit.ly/ktcontracts-slides)
 * Kotlin User Group Hamburg - [<i class="fab fa-slideshare"></i> What's up next for Kotlin?](http://bit.ly/kotlin13)
