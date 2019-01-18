@@ -12,7 +12,7 @@ header:
 
 If you're working with Android nowadays, you'll probably be familiar with **Android X**, the _major package renaming_ of the Android Support library announced at Google I/O 2018. It's time to migrate!
 
-Although, if you're working on a big project (or if you love procrastinating) you probably haven't migrated yet. One of the tool can come handy in this case is **Jetifier** in **reverse mode**.
+Although, you might be in the situation **where you can't yet migrate**. Either because you're working on a big project (that you're not fully responsible of) or just because you love procrastinating. One of the tool can come handy in this case is **Jetifier** in **reverse mode**.
 
 # AndroidX
 
@@ -139,9 +139,8 @@ You can either update them manually, or let Jetifier do the job. You can't pass 
 
 Here a couple of warnings/problems I got while using this tool:
 
-```
 WARNING: [ProGuardTypesMap] Conflict: [ProGuardType(value=androidx/preference/{any})] -> (ProGuardType(value=android/support/v14/preference/{any}), ProGuardType(value=android/support/v7/preference/{any}))
-```
+{: .notice--warning}
 
 Here Jetifier complains because it's not able to reverse the mapping for `androidx.preference.` in the ProGuard file. The problem is due to both `android.support.v14.preference.` and `android.support.v7.preference.` being migrated to the same AndroidX package, so the mapping is ambiguous.
 
@@ -162,9 +161,8 @@ You can fix this warning by passing a custom mapping file to Jetifier with the `
 
 Another problem I had was:
 
-```
 WARNING: [XmlResourcesTransformer] No mapping for package 'androidx.annotation' in 'AppIntro-v5.1.0.pom.xml'
-```
+{: .notice--warning}
 
 Here looks like Jetifier was not able to de-jetify the `androidx.annotation` dependency in the `.pom` file. Apparently the mapping is in the config file and is not ambiguous. The resulting `.pom` file was like _half de-jetified_ and required some manual fix:
 
@@ -185,4 +183,6 @@ Here looks like Jetifier was not able to de-jetify the `androidx.annotation` dep
 
 I filed a bug on the issue tracker and hopefully will be fixed soon.
 
-Now you have your de-jefitifed artifact ready, that can be added as a dependency to your project. Happy de-jetification!
+Now you have your de-jefitifed artifact ready, that can be added as a dependency to your project. 
+
+Happy de-jetification! 🕺
