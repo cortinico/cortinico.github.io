@@ -12,13 +12,13 @@ header:
 
 If you're working with Android nowadays, you'll probably be familiar with **Android X**, the _major package renaming_ of the Android Support library announced at Google I/O 2018. It's time to migrate!
 
-Although, if you're working on a big project (or if you love procasticating) you probably haven't migrated yet. One of the tool can come handy in this case is **Jetifier** in **reverse mode**.
+Although, if you're working on a big project (or if you love procrastinating) you probably haven't migrated yet. One of the tool can come handy in this case is **Jetifier** in **reverse mode**.
 
 # AndroidX
 
 Google finally decided to cleanup and re-organize the good old Support Library (launched in [March 2011](https://developer.android.com/topic/libraries/support-library/rev-archive#rev1)!). Historically, classes in the Support Library used to have packages like `android.support.v4.app.`. 
 
-The `.v4` in the package meant that the code provided was supposed to be backward compatible for API level 4 and higher. Given that now we're at API level 28, having a `.v4` in the package name doesn't add much value (it moslty creates confusion).
+The `.v4` in the package meant that the code provided was supposed to be backward compatible for API level 4 and higher. Given that now we're at API level 28, having a `.v4` in the package name doesn't add much value (it mostly creates confusion).
 
 All the packages in the Support Library got standardized under the `androidx.` package. So for examples `android.support.v4.app.Fragment` will be `androidx.fragment.app.Fragment`. The list with all the mapping is [pretty long](https://developer.android.com/jetpack/androidx/migrate#class_mappings). You need to take care that everything in your codebase is migrated to use the new packages.
 
@@ -59,19 +59,19 @@ You basically have 3 options:
 
 ### Don't migrate.
 
-The _laziest_ alternative is to don't migrate. Apps that are using your library and are not migrated, will keep on working as usual. Apps that are migrate insted will jetify your compiled code to make it compatible with their codebase.
+The _laziest_ alternative is to don't migrate. Apps that are using your library and are not migrated, will keep on working as usual. Apps that are migrate instead will jetify your compiled code to make it compatible with their codebase.
 
 ### Maintain two variants of your library.
 
-You can maintain two versions of your app. The `-androidx` version will be the migrated version and you should point out in the documentation which artifacts to use.
+You can maintain two variants/flavors of your app. The `-androidx` variant will be the migrated instance and you should point out in the documentation which artifacts users should use.
 
-This is probably the _safest_ approach as users won't need Jetifier at all, avoiding all the [potential bugs](https://issuetracker.google.com/issues?q=componentid:460323%20status:open) of this tool. At the same time is probably the _most costly_ solution as you need to take care of two artifacts and you might end up in a lot of code duplication.
+This is probably the _safest_ approach as users won't need Jetifier at all, avoiding all the [potential bugs](https://issuetracker.google.com/issues?q=componentid:460323%20status:open) of this tool. At the same time is probably the _most costly_ solution as you need to take care of two artifacts and you might end up in some code duplication.
 
 ### Migrate.
 
 Do a major release of your library and announce that from version `X.` you will be supporting only AndroidX. Don't forget to point out that the latest version of the library that is not migrated to AndroidX in the Readme file.
 
-This is the approach I used for a library I'm maintaing: [AppIntro](https://github.com/paolorotolo/AppIntro). We decided that from `5.x` the library will support only AndroidX.
+This is the approach I used for a library I maintain: [AppIntro](https://github.com/paolorotolo/AppIntro). We decided that from `5.x` the library will support only AndroidX.
 
 People that wants to use the latest version of the library should either update to AndroidX or use Jetifier in **Reverse Mode**. 
 
@@ -79,7 +79,7 @@ People that wants to use the latest version of the library should either update 
 
 Jetifier in reverse mode will _de-Jetify_ the bytecode of a library. Converting the new AndroidX packages to the old one.
 
-Unfortunately the Reverse mode is not integrated into the AGP and there is no gradle property to set to enable it. The only way to run it is to use the standalone version. 
+Unfortunately the Reverse mode is **not integrated** into the AGP and there is no gradle property to set to enable it. The only way to run it is to use the standalone version. 
 
 Luckily the command line jetifier is really easy to use:
 
@@ -106,10 +106,83 @@ usage: Jetifier (standalone)
                                         missing and throw errors instead
 ```
 
-Let's try to use it with the [AppIntro artifact](https://jitpack.io/com/github/paolorotolo/AppIntro/v5.1.0/AppIntro-v5.1.0.aar):
+We need the `-r` option to de-jetifiy. Let's try to use it with the [AppIntro artifact](https://jitpack.io/com/github/paolorotolo/AppIntro/v5.1.0/AppIntro-v5.1.0.aar):
 
 ```bash
-./jetifier-standalone -r -i AppIntro-v5.1.0.aar -o test.aar
+./bin/jetifier-standalone -r -i AppIntro-v5.1.0.aar -o deJetified.aar
 ```
 
+That's it! Your `.aar` is now de-jetified and can be integrated in your app.
+To actually use it you also need the `.pom` file where all the library dependency are listed. 
 
+For AppIntro for example we have those dependencies in the [pom file](https://jitpack.io/com/github/paolorotolo/AppIntro/v5.1.0/AppIntro-v5.1.0.aar):
+
+```xml
+<dependencies>
+    <dependency>
+      <groupId>androidx.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    ...
+</dependencies>
+```
+
+You can either update them manually, or let Jetifier do the job. You can't pass the `.pom` directly to the command line tool, but you have to create a `.zip` file where you can put all the content of the maven repository: `.aar`, `.pom`, `-sources.jar`, etc.
+
+Here a couple of warnings/problems I got while using this tool:
+
+```
+WARNING: [ProGuardTypesMap] Conflict: [ProGuardType(value=androidx/preference/{any})] -> (ProGuardType(value=android/support/v14/preference/{any}), ProGuardType(value=android/support/v7/preference/{any}))
+```
+
+Here Jetifier complains because it's not able to reverse the mapping for `androidx.preference.` in the ProGuard file. The problem is due to both `android.support.v14.preference.` and `android.support.v7.preference.` being migrated to the same AndroidX package, so the mapping is ambiguous.
+
+You can fix this warning by passing a custom mapping file to Jetifier with the `-c` option. You can use [this](https://gist.github.com/cortinico/c48bc02411b7fb45f383c9ac01b8b595) as a starting point and customize it as you wish. The warning is raised by those [lines](https://gist.github.com/cortinico/c48bc02411b7fb45f383c9ac01b8b595#file-default-generated-config-L4411). You can remove one of the two rules in the config file to remove the warning.
+
+```json
+  "proGuardMap": {
+    "rules": {
+      ...
+      "android/support/v7/preference/{any}": [
+        "androidx/preference/{any}"
+      ],
+      "android/support/v14/preference/{any}": [
+        "androidx/preference/{any}"
+      ],
+      ...
+```
+
+Another problem I had was:
+
+```
+WARNING: [XmlResourcesTransformer] No mapping for package 'androidx.annotation' in 'AppIntro-v5.1.0.pom.xml'
+```
+
+Here looks like Jetifier was not able to de-jetify the `androidx.annotation` dependency in the `.pom` file. Apparently the mapping is in the config file and is not ambiguous. The resulting `.pom` file was like _half de-jetified_ and required some manual fix:
+
+```xml
+    <dependency>
+      <groupId>android.support.v7.appcompat</groupId>
+      <artifactId>appcompat</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>androidx.annotation</groupId>
+      <artifactId>annotation</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
+```
+
+I filed a bug on the issue tracker and hopefully will be fixed soon.
+
+Now you have your de-jefitifed artifact ready, that can be added as a dependency to your project. Happy de-jetification!
