@@ -39,19 +39,21 @@ If you migrated to AndroidX and you're using a library that is not migrated yet,
 
 [Jetifier](https://developer.android.com/studio/command-line/jetifier) is a tool provided by Google to help you solve exactly this kind of issue. Jetifiery will **convert the bytecode** of your dependencies (aka _jetify_) to use the AndroidX classes following the mapping.
 
-The enabled Jetifer you just need to add this line to your `gradle.properties`
+The enable Jetifer you just need to add this line to your `gradle.properties`
 
 ```groovy
 android.useJetifier=true
 ```
 
-Or you can [download](https://dl.google.com/dl/android/studio/jetifier-zips/1.0.0-beta02/jetifier-standalone.zip) the standalone version to convert single artifacts directly from your command line.
+and the dependencies will be converted **automatically** during the build.
 
-Thanks to this you'll be able to use either migrated or not migrated dependencies in your project.
+Alternatively, you can [download](https://dl.google.com/dl/android/studio/jetifier-zips/1.0.0-beta02/jetifier-standalone.zip) the standalone version to convert single artifacts directly from your command line.
 
-What about Android libraries? 
+Thanks to this, you'll be able to use either migrated or not migrated dependencies in your project.
 
-# The library developer point of view
+What about if you're maintaining an Android Library?
+
+# The library developer's point of view
 
 If you're a library developer, you probably asked yourself: [Should I migrate my library to AndroidX?](https://www.reddit.com/r/androiddev/comments/9yd1ht/should_i_use_support_or_androidx_in_my_own_library/). The risk here is that if you migrate to AndroidX, users that haven't yet migrated can't use your library.
 
@@ -59,17 +61,17 @@ You basically have 3 options:
 
 ### Don't migrate.
 
-The _laziest_ alternative is to don't migrate. Apps that are using your library and are not migrated, will keep on working as usual. Apps that are migrate instead will jetify your compiled code to make it compatible with their codebase.
+The _laziest_ alternative is to don't migrate. Apps that are using your library and are not migrated, will keep on working as usual. Apps that are migrated instead will jetify your compiled code to make it compatible with their codebase.
 
 ### Maintain two variants of your library.
 
-You can maintain two variants/flavors of your app. The `-androidx` variant will be the migrated instance and you should point out in the documentation which artifacts users should use.
+You can maintain two variants/flavors of your app. The `-androidx` variant will be the migrated instance and you should point out in the documentation which artifacts each users should use.
 
 This is probably the _safest_ approach as users won't need Jetifier at all, avoiding all the [potential bugs](https://issuetracker.google.com/issues?q=componentid:460323%20status:open) of this tool. At the same time is probably the _most costly_ solution as you need to take care of two artifacts and you might end up in some code duplication.
 
 ### Migrate.
 
-Do a major release of your library and announce that from version `X.` you will be supporting only AndroidX. Don't forget to point out that the latest version of the library that is not migrated to AndroidX in the Readme file.
+Do a major release of your library and announce that from version `X.` you will be supporting only AndroidX. Don't forget to point out that the in your Readme file (e.g. pinning the latest version of the library that is not migrated to AndroidX).
 
 This is the approach I used for a library I maintain: [AppIntro](https://github.com/AppIntro/AppIntro). We decided that from `5.x` the library will support only AndroidX.
 
@@ -77,13 +79,13 @@ People that wants to use the latest version of the library should either update 
 
 # Reverse Mode
 
-Jetifier in reverse mode will _de-Jetify_ the bytecode of a library. Converting the new AndroidX packages to the old one.
+Jetifier in reverse mode can be used to _de-Jetify_ the bytecode of a library, converting the new AndroidX packages to the old one.
 
-Unfortunately the Reverse mode is **not integrated** into the Android Gradle Plugin and there is no property to set to enable it. The only way to run it is to use the standalone version. 
+Unfortunately the reverse mode is **not integrated** into the Android Gradle Plugin and there is no property to set to enable it. The only way to run it, is to use the standalone version. 
 
 Luckily the command line jetifier is not so hard to use:
 
-```bash
+```
 $ ./bin/jetifier-standalone
 ERROR: [Main] Missing required options: i, o
 usage: Jetifier (standalone)
@@ -137,7 +139,7 @@ For AppIntro for example we have those dependencies in the [pom file](https://ji
 
 You can either update them manually, or let Jetifier do the job. You can't pass the `.pom` directly to the command line tool, but you have to create a `.zip` file where you can put all the content of the maven repository: `.aar`, `.pom`, `-sources.jar`, etc.
 
-I just got a warning while using this tool:
+Using this tool, you can probably receive this warning:
 
 WARNING: [ProGuardTypesMap] Conflict: [ProGuardType(value=androidx/preference/{any})] -> (ProGuardType(value=android/support/v14/preference/{any}), ProGuardType(value=android/support/v7/preference/{any}))
 {: .notice--warning}
