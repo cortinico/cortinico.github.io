@@ -11,9 +11,10 @@ header:
     show_overlay_excerpt: false
 ---
 
-<!-- 
 # Upcoming
-{: .talk-section } -->
+
+* Android Makers 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
+{: .talk-section }
 
 # 2018
 
