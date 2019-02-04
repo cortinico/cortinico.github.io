@@ -2,9 +2,9 @@
 main:
   - title: "Blog"
     url: /blog
-  # - title: "TIL"
-    # url: /tags/til
   - title: "Talks"
     url: /talks
+  - title: "Projects"
+    url: /projects
   - title: "About"
     url: /about
