@@ -5,6 +5,7 @@ excerpt: "List of talks, seminars and workshops I've done."
 sitemap: true
 permalink: /talks
 author_profile: true
+toc: true
 header:
     overlay_filter: "0.6"
     overlay_image: "/assets/images/header-talks.jpg"
@@ -15,7 +16,7 @@ header:
 # Upcoming
 {: .talk-section } -->
 
-# 2018
+## 2018
 
 * Codemotion Milan 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons)
 * Mobiconf 2018 - [<i class="fab fa-slideshare"></i> The Curious Case of Android Button](http://bit.ly/androidbuttons) [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=lUaAbWLLNxM)
@@ -30,7 +31,7 @@ header:
 * GDG Bremen - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
 {: .talk-section }
 
-# 2017
+## 2017
 
 * GDG DevFest Hamburg - [<i class="fab fa-slideshare"></i> Android Things, The IoT Platform for everyone](http://bit.ly/devfesthh-iot)
 * Codemotion Milan 2017 - [<i class="fab fa-slideshare"></i> Building UI Consistent Android Apps](http://bit.ly/uiconsistency)
@@ -39,7 +40,7 @@ header:
 * GDG Pisa - [<i class="fab fa-slideshare"></i> The voice assistant you’ve always wanted...with Actions on Google!](http://bit.ly/actionsongoogle)
 {: .talk-section }
 
-# 2016
+## 2016
 
 * GDG Pisa - [<i class="fab fa-slideshare"></i> Firebase: From Zero to Hero](http://bit.ly/firebasefrom0tohero)
 * Droidcon Italy 2016 - [<i class="fab fa-slideshare"></i> Backend 4 Android Developers](https://backend4android.github.io/)
