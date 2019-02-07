@@ -6,13 +6,14 @@ sitemap: true
 permalink: /talks
 author_profile: true
 toc: true
+toc_label: "Talks"
 header:
     overlay_filter: "0.6"
     overlay_image: "/assets/images/header-talks.jpg"
     show_overlay_excerpt: false
 ---
 
-# Upcoming
+## Upcoming
 
 * Droidcon Italy 2019 - Let me write your networking code
 * Android Makers 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
