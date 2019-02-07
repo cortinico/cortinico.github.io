@@ -12,9 +12,11 @@ header:
     show_overlay_excerpt: false
 ---
 
-<!-- 
 # Upcoming
-{: .talk-section } -->
+
+* Droidcon Italy 2019 - Let me write your networking code
+* Android Makers 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
+{: .talk-section }
 
 ## 2018
 

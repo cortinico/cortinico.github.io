@@ -45,7 +45,7 @@ The enable Jetifer you just need to add this line to your `gradle.properties`
 android.useJetifier=true
 ```
 
-and the dependencies will be converted **automatically** during the build.
+and the dependencies will be converted **automagically** during the build.
 
 Alternatively, you can [download](https://dl.google.com/dl/android/studio/jetifier-zips/1.0.0-beta02/jetifier-standalone.zip) the standalone version to convert single artifacts directly from your command line.
 
