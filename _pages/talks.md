@@ -20,9 +20,9 @@ header:
 
 ## 2019
 
-* Droidcon Italy 2019 - Let me write your networking code!
+* Droidcon Italy 2019 - [<i class="fab fa-slideshare"></i> Let me write your networking code!](http://bit.ly/slides-codegen)
 * GDG Hamburg - I have no idea what my app is doing ¯\\\_(ツ)_/¯
-* Berlindroid - Let me write your networking code!
+* Berlindroid - [<i class="fab fa-slideshare"></i> Let me write your networking code!](http://bit.ly/slides-codegen)
 {: .talk-section }
 
 ## 2018
