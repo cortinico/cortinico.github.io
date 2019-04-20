@@ -15,7 +15,7 @@ header:
 
 ## Upcoming
 
-* Android Makers 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
+* Android Makers 2019 - [<i class="fab fa-slideshare"></i> I have no idea what my app is doing ¯\\\_(ツ)_/¯](http://bit.ly/ihavenoideawhatmyappisdoing)
 {: .talk-section }
 
 ## 2019
