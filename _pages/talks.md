@@ -13,9 +13,9 @@ header:
     show_overlay_excerpt: false
 ---
 
-<!-- ## Upcoming -->
-
-<!-- {: .talk-section } -->
+## Upcoming
+* GDG Global Manager Summit - Kicking off your first DevFest!
+{: .talk-section }
 
 ## 2019
 
