@@ -95,7 +95,7 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-71657172-1"
+    tracking_id          : "UA-71657172-1" # IMPORTANT: If you clone this repo, please change the tracking id!
     anonymize_ip         : # true, false (default)
 
 
