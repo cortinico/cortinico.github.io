@@ -15,7 +15,7 @@ header:
 
 ## Upcoming
 * Droidcon Berlin 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
-* GDG Global Manager Summit - Kicking off your first DevFest!
+* GDG Global Manager Summit - [<i class="fab fa-slideshare"></i> Kicking off your first DevFest!](http://bit.ly/howtodevfest)
 {: .talk-section }
 
 ## 2019
