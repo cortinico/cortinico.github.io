@@ -20,7 +20,7 @@ header:
 
 ## 2019
 
-* Android Makers 2019 - [<i class="fab fa-slideshare"></i> I have no idea what my app is doing ¯\\\_(ツ)_/¯](http://bit.ly/ihavenoideawhatmyappisdoing)
+* Android Makers 2019 - [<i class="fab fa-slideshare"></i> I have no idea what my app is doing ¯\\\_(ツ)_/¯](http://bit.ly/ihavenoideawhatmyappisdoing) [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=GtZ-WZWoneQ)
 * Droidcon Italy 2019 - [<i class="fab fa-slideshare"></i> Let me write your networking code!](http://bit.ly/slides-codegen) [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=A8kL2QYp8wE)
 * GDG Hamburg - [<i class="fab fa-slideshare"></i> I have no idea what my app is doing ¯\\\_(ツ)_/¯](http://bit.ly/ihavenoideawhatmyappisdoing)
 * Berlindroid - [<i class="fab fa-slideshare"></i> Let me write your networking code!](http://bit.ly/slides-codegen)
