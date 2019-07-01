@@ -13,8 +13,8 @@ header:
     show_overlay_excerpt: false
 ---
 
-## Upcoming
-{: .talk-section }
+<!-- ## Upcoming
+{: .talk-section } -->
 
 ## 2019
 
