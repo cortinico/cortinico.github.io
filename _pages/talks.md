@@ -13,8 +13,8 @@ header:
     show_overlay_excerpt: false
 ---
 
-<!-- ## Upcoming
-{: .talk-section } -->
+## Upcoming
+* Droidcon Greece 2019 - Let me write your networking code!
 
 ## 2019
 
