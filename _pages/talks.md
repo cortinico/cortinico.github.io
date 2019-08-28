@@ -14,7 +14,9 @@ header:
 ---
 
 ## Upcoming
+
 * Droidcon Greece 2019 - Let me write your networking code!
+* Droidcon Lisbon 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
 
 ## 2019
 
