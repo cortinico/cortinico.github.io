@@ -2,13 +2,21 @@
 layout: splash
 author_profile: false
 description: "We talk about Android Development, Public Speaking, Community and Travelling"
-title: "Hi! I'm Nicola"
+title: "Nicola Corti"
 og_title: "Nicola Corti"
 
 header:
     overlay_image: "/assets/images/header-home.jpg"
     og_image: "/assets/images/og-default-header.jpg"
-excerpt: "<div class='header_box'><div class='author__avatar'><img src='/assets/images/avatar.png' itemprop='image'></div><h1 class='page__title typewriter-container'>I'm <span id='typewriter'></span></h1><a href='mailto:corti.nico@gmail.com'><i class='fas fa-envelope' aria-hidden='true'></i></a><a href='https://twitter.com/cortinico'><i class='fab fa-twitter' aria-hidden='true'></i></a><a href='https://github.com/cortinico'><i class='fab fa-github' aria-hidden='true'></i></a><a href='https://instagram.com/cortinico'><i class='fab fa-instagram' aria-hidden='true'></i></a><a href='https://linkedin.com/in/cortinico'><i class='fab fa-linkedin' aria-hidden='true'></i></a></div>"
+excerpt: "<div class='header_box'><div class='author__avatar'><img src='/assets/images/avatar.png' itemprop='image'></div>
+<div class='social__links'>
+<a href='mailto:corti.nico@gmail.com'><i class='fas fa-envelope' aria-hidden='true'></i></a>
+<a href='https://twitter.com/cortinico'><i class='fab fa-twitter' aria-hidden='true'></i></a>
+<a href='https://github.com/cortinico'><i class='fab fa-github' aria-hidden='true'></i></a>
+<a href='https://instagram.com/cortinico'><i class='fab fa-instagram' aria-hidden='true'></i></a>
+<a href='https://linkedin.com/in/cortinico'><i class='fab fa-linkedin' aria-hidden='true'></i></a>
+</div>
+</div>"
 
 feature_row:
   - image_path: assets/images/thumb-blog.jpg
@@ -29,7 +37,8 @@ feature_row:
 ---
 
 <p align="center">
-	Welcome to my website. I'm Nicola Corti, an enthusiasth <strong>Android</strong> Engineer a <strong>Community</strong> lover and a <strong>Speaker</strong>.
+    Android Development 🤖, Public Speaking 🎤, Community 🤝 and Travelling ✈️.<br/>
+    If you like them, you ended up in the right spot.
 </p>
 
 <hr>
@@ -46,34 +55,3 @@ feature_row:
 
 {% include paginator.html %}
 </div>
-
-<script type="text/javascript">
-var app = document.getElementById('typewriter');
-
-var typewriter = new Typewriter(app, {
-    loop: true
-});
-
-typewriter.typeString('Android Engineer')
-    .pauseFor(1500)
-    .deleteChars(9)
-    .typeString(' Lov3')
-    .pauseFor(200)
-    .deleteChars(1)
-    .typeString('er')
-    .pauseFor(1500)
-    .deleteAll()
-    .typeString('Public Speaker')
-    .pauseFor(2500)
-    .deleteAll()
-    .typeString('Community')
-    .pauseFor(500)
-    .typeString(' Builder')
-    .pauseFor(2500)
-    .deleteChars(8)
-    .typeString(' Manager')
-    .pauseFor(1500)
-    .deleteAll()
-    .typeString('Traveller')
-    .start();  
-</script>
