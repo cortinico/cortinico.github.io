@@ -12,9 +12,9 @@ header:
 
 Nearly one year ago I stumbled upon this blogpost: [Top 10 Android Libraries Every Android Developer Should Know About](https://infinum.co/the-capsized-eight/top-10-android-libraries-every-android-developer-should-know-about). 
 
-Initially it looked like yet another top 10 android library list and I expected to know all the libraries already, but... **not this time!** That blogpost contained a surprise: [Chuck](https://github.com/jgilfelt/chuck), by [Jeff Gilfelt](https://github.com/jgilfelt).
+Initially, it looked like yet another top 10 android library list and I expected to know all the libraries already, but... **not this time!** That blogpost contained a surprise: [Chuck](https://github.com/jgilfelt/chuck), by [Jeff Gilfelt](https://github.com/jgilfelt).
 
-Chuck is an **OkHTTP inspector** that allows to investigate the ongoing HTTP(S) traffic showing all the details of **every request & response**. I generally love tools and libraries that can improve the Android Developer's daily life. The idea behind Chuck was great so I gave it a try!
+Chuck is an **OkHTTP inspector** that allows investigating the ongoing HTTP(S) traffic showing all the details of **every request & response**. I generally love tools and libraries that can improve the Android Developer's daily life. The idea behind Chuck was great so I gave it a try!
 
 The library worked as promised but the last commit on Github was **long ago**... 😕
 
@@ -24,11 +24,11 @@ The library appeared **unmaintained** on GitHub, with a lot of open unanswered i
 
 # Forking Chuck
 
-After playing a little with it, I really liked the idea behind Chuck!
+After playing a little with it, I liked the idea behind Chuck!
 
-I generally use [Charles](https://www.charlesproxy.com/) to inspect the network traffic of my app with a proxy on my computer. Unfortunately, Charles can be sometimes annoying to configure. It requires you to setup a Proxy on the Android device plus install the Charles SSL certificate on the device.
+I generally use [Charles](https://www.charlesproxy.com/) to inspect the network traffic of my app with a proxy on my computer. Unfortunately, Charles can be sometimes annoying to configure. It requires you to set up a Proxy on the Android device and a SSL certificate on the device.
 
-Chuck is a great too to **streamline this process** and to easily investigate what the app is doing on the network. On the other hand, depending on unmaintained libraries is not ideal.
+Chuck is a great to **streamline this process** and to easily investigate what the app is doing on the network. On the other hand, depending on unmaintained libraries is not ideal.
 
 It was **time for a fork**! 🌱 
 
@@ -66,7 +66,7 @@ val client = OkHttpClient.Builder()
 
 ## What's new in 3.x
 
-Chucker 3.x comes with a lot of **new features** and improvements that will hopefully improve your developer experience. Moreover we update the library to be aligned with the _state of the art_ of the Android ecosystem in 2019.
+Chucker 3.x comes with a lot of **new features** and improvements that will hopefully improve your developer experience. Moreover, we updated the library to be aligned with the _state of the art_ of the Android ecosystem in 2019.
 
 ## Public API
 
@@ -82,21 +82,21 @@ val interceptor = ChuckerInterceptor(
 )
 ```
 
-Moreover, the public API of Chucker is now isolated inside the `com.chuckerteam.chucker.api` package. On classes inside this package we are following a strict **semantic versioning**. Expect a major version bump if a breaking change is going to be introduced on those classes. 
+Moreover, the public API of Chucker is now isolated inside the `com.chuckerteam.chucker.api` package. On classes inside this package, we are following strict **semantic versioning**. Expect a major version bump if a breaking change is going to be introduced in those classes. 
 
 Classes inside the `.internal` package are part of the implementation internals and are not part of the API surface. Don't use them as they might be broken at any time. 
 
 ## Database
 
-We've update the **ORM** used by the library to store traffic information. Historically Chuck used to use [Cupboard](https://bitbucket.org/littlerobots/cupboard/src/default/), a great ORM for Android written by [Hugo Visser](https://twitter.com/botteaap).
+We've updated the **ORM** used by the library to store traffic information. Historically Chuck used to use [Cupboard](https://bitbucket.org/littlerobots/cupboard/src/default/), a great ORM for Android written by [Hugo Visser](https://twitter.com/botteaap).
 
 Cupboard is also [not updated](https://bitbucket.org/hvisser/cupboard/commits/all) since 2016 and it was time to migrate to something more up to date. Chucker is now using [**Room**](https://developer.android.com/topic/libraries/architecture/room). If you don't know Room, it's one of the Android Architecture components from Google and it allows to abstract over the local SqLite database.
 
 ## UI
 
-Also the UI of the library was **fully revamped**. Time to say goodbye to good old `RelativeLayout` and [replace them with `ConstraintLayout`](https://github.com/ChuckerTeam/chucker/pull/10). Moreover we polished the color palette and updated the library logo to resemble Chuck's logo and palette (after all this is just a fork).
+The UI of the library was **fully revamped**. Time to say goodbye to good old `RelativeLayout` and [replace them with `ConstraintLayout`](https://github.com/ChuckerTeam/chucker/pull/10). Moreover, we polished the color palette and updated the library logo to resemble Chuck's logo and palette (after all this is just a fork).
 
-If you're worried of pulling in too many dependencies inside your final APK (Room, ConstraintLayout, etc.), you **don't have to worry**. Those dependencies are defined only inside the `library` artifact. Your release APK will be built using the `library-no-op` artifact that contains **no dependency at all**.
+If you're worried about pulling in too many dependencies inside your final APK (Room, ConstraintLayout, etc.), you **don't have to worry**. Those dependencies are defined only inside the `library` artifact. Your release APK will be built using the `library-no-op` artifact that contains **no dependency at all**.
 
 ## New Features
 
@@ -120,7 +120,7 @@ Throwables will also be shown in a push notification and are available under the
 
 ### Images
 
-**Images** 🖼 contained inside the body of HTTP responses **will now be rendered**! I assume a lot of HTTP traffic generated by our Android app is actually fetching of images. You can now get a preview of what every image looks like to help debugging potential problems.
+**Images** 🖼 contained inside the body of HTTP responses **will now be rendered**! A lot of HTTP traffic generated by our Android app is actually fetching of images. Now you can now get a preview of what every image looks like to help debugging potential problems.
 
 ![image loading sample](/assets/images/posts/chucker-3.png)
 
@@ -132,4 +132,4 @@ We added the support to **search** 🔎 inside the body of plain/text HTTP reque
 
 That's all! I finally want to say a big **thank you** ❤️ to [@alorma](https://github.com/alorma) [@Ashok-Varma](https://github.com/Ashok-Varma) [@koral--](https://github.com/koral--) [@olivierperez](https://github.com/olivierperez) [@OlliZi](https://github.com/OlliZi) [@PaulWoitaschek](https://github.com/PaulWoitaschek) [@psh](https://github.com/psh) [@redwarp](https://github.com/redwarp) [@uOOOO](https://github.com/uOOOO) for making Chucker 3.x possible! 
 
-Please try Chucker and give us a feedback, we're looking for more contributors!
+Please try Chucker and give us feedback, we're looking for more contributors!
