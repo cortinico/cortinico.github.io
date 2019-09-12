@@ -16,10 +16,10 @@ header:
 ## Upcoming
 
 * Droidcon Greece 2019 - Let me write your networking code!
-* Droidcon Lisbon 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
-
+ 
 ## 2019
 
+* Droidcon Lisbon 2019 - I have no idea what my app is doing ¯\\\_(ツ)_/¯
 * Droidcon Greece 2019 - [Call-for-paper Committee](https://droidcon.gr/)
 * Droidcon Berlin 2019 - [<i class="fab fa-slideshare"></i> I have no idea what my app is doing ¯\\\_(ツ)_/¯](http://bit.ly/ihavenoideawhatmyappisdoing) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/media-detail?video=352670033)
 * GDG Global Manager Summit - [<i class="fab fa-slideshare"></i> Kicking off your first DevFest!](http://bit.ly/howtodevfest)
