@@ -16,6 +16,7 @@ header:
 ## Upcoming
 
 * Droidcon Greece 2019 - Let me write your networking code!
+{: .talk-section }
  
 ## 2019
 
