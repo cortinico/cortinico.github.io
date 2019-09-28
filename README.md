@@ -5,7 +5,7 @@
 Just my personal website.
 
 <p align="center">
-    <img src="https://i.imgur.com/txx4atC.png">
+    <img src="https://i.imgur.com/uZJfND4.png">
 </p>
 
 # IMPORTANT
