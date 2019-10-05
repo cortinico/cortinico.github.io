@@ -13,8 +13,10 @@ header:
     show_overlay_excerpt: false
 ---
 
-<!-- ## Upcoming -->
-<!-- {: .talk-section } -->
+## Upcoming
+
+* FOSDEM 2020 - **Kotlin DevRoom Organizer**
+{: .talk-section }
  
 ## 2019
 
