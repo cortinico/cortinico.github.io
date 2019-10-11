@@ -15,7 +15,7 @@ header:
 
 ## Upcoming
 
-* FOSDEM 2020 - **Kotlin DevRoom Organizer**
+* [FOSDEM 2020](https://fosdem.org/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
  
 ## 2019
