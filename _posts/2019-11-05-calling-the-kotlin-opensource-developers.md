@@ -49,7 +49,7 @@ First, FOSDEM is **non-commercial, volunteer-organized and free**!
 I'm always amazed by the passion of everyone involved in FOSDEM organizations. 
 Every year the conference is a huge success, and this is just thanks to volunteers who spend their free time organizing it. Only in 2019, it was attended by **more than 8000 developers with over 700 sessions**.
 
-Moreover, FOSDEM has something like _special_ for me: it was the first international conference I've ever been to. Initially, I was really hesitant on the content. With 700+ sessions it's obviously really hard to _crawl_ the agenda and find the best content. But then I realized that you don't go to FOSDEM **just for the content**.
+Moreover, FOSDEM has something like _special_ for me: it was the first international conference I've ever been to. Initially, I was really hesitant on the content. With 700+ sessions it's obviously really hard to _crawl_ the agenda and find the best content. But then I realized that you don't go to FOSDEM **just** for the content.
 
 FOSDEM is first of all an opportunity to **meet with the open source community**. Every time I feel so much inspired by all the new connections, stories and projects that I found during the two days of the event. 
 
@@ -77,7 +77,7 @@ There is still time to submit a session for the Kotlin DevRoom.
 Don't miss the opportunity to be part of the speakers linuep of the first Kotlin DevRoom.
 
 We welcome any talk proposals about Kotlin-related projects.
-Topics of interest include, but are not limited to:
+Topics of interest include:
 
 * Kotlin Language
 * Android app development with Kotlin
