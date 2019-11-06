@@ -12,9 +12,9 @@ header:
 
 Hi fellow Kotliners,
 
-Today I'm really excited to announce that a project I had in mind since a while is becoming reality: **The Kotlin DevRoom at FOSDEM**! 🎉
+Today I'm really excited to announce that a project I had in mind for a while is becoming reality: **The Kotlin DevRoom at FOSDEM**! 🎉
 
-For the first time, Kotlin developers will be represented at the **biggest European open source conference**, in Brussels on **February 1st and 2nd 2020**.
+For the first time, Kotlin developers will be represented at the **biggest European open-source conference**, in Brussels on **February 1st and 2nd 2020**.
 
 # About FOSDEM
 
@@ -23,17 +23,15 @@ From the official [FOSDEM website](https://fosdem.org/2020/about/):
 <blockquote>
 FOSDEM is a free and non-commercial event organised by the community,
 for the community.<br/>
-The goal is to provide free and open source software developers and
+The goal is to provide free and open-source software developers and
 communities a place to meet to:
 
 <ul>
 <li>get in touch with other developers and projects</li>
 <li>be informed about the latest developments in the free software world</li>
-<li>be informed about the latest developments in the open source world</li>
-<li>attend interesting talks and presentations on various topics by</li>
-project leaders and committers</li>
-<li>promote the development and benefits of free software and open
-source solutions</li>
+<li>be informed about the latest developments in the open-source world</li>
+<li>attend interesting talks and presentations on various topics by project leaders and committers</li>
+<li>promote the development and benefits of free software and open-source solutions</li>
 </ul>
 
 Participation and attendance is totally free, though the organisers
@@ -44,22 +42,22 @@ gratefully accept donations and sponsorship.
 
 FOSDEM is really different from any other conference that you may have been to.
 
-First, FOSDEM is **non-commercial, volunteer-organized and free**!
+First, it's **non-commercial, volunteer-organized and free**!
 
-I'm always amazed by the passion of everyone involved in FOSDEM organizations. 
+I'm always amazed by the passion of everyone involved in FOSDEM organization. 
 Every year the conference is a huge success, and this is just thanks to volunteers who spend their free time organizing it. Only in 2019, it was attended by **more than 8000 developers with over 700 sessions**.
 
-Moreover, FOSDEM has something like _special_ for me: it was the first international conference I've ever been to. Initially, I was really hesitant on the content. With 700+ sessions it's obviously really hard to _crawl_ the agenda and find the best content. But then I realized that you don't go to FOSDEM **just** for the content.
+Moreover, FOSDEM has something _special_ for me: it was the first international conference I've ever been to. Initially, I was hesitant about the content. With 700+ sessions it's hard to _crawl_ the agenda and find the best sessions. But then I realized that you don't go to FOSDEM **just** for the content.
 
-FOSDEM is first of all an opportunity to **meet with the open source community**. Every time I feel so much inspired by all the new connections, stories and projects that I found during the two days of the event. 
+FOSDEM is, first of all, an opportunity to **meet with the open-source community**. Every time I feel so much inspired by all the new connections, stories and projects that I found during the two days of the event. 
 
 <!--At FOSDEM, you have the opportunity to meet other open source contributors that you probably met only virtually.--> 
 
-Since then, FOSDEM is now a **fixed appointment in my agenda**. Personally, I can't think of a better way to start the conference season of a new year.
+Since then, FOSDEM is now a **fixed appointment in my agenda**. I can't think of a better way to start the conference season of a new year.
 
 # About the Kotlin DevRoom
 
-The Kotlin DevRoom is a _conference-within-a-conference_ that will give Kotlin developers the opportunity to come together and chat, hack, and share stories about Kotlin usage in the FLOSS ecosystems.
+The Kotlin DevRoom is a _conference-within-a-conference_ that will allow Kotlin developers to come together and chat, hack, and share stories about Kotlin usage in the FLOSS ecosystems.
 
 The DevRoom will take place on **Sunday, the 2nd of February 2020**, from 9.00 AM to 5.00 PM at [ULB (Campus Solbosch)](https://www.openstreetmap.org/node/1632534522) in Brussels, Belgium.
 
@@ -74,9 +72,10 @@ Finally, please note that FOSDEM is famous for having a **really high attendance
 [**You can find the official Call for paper here.**](https://lists.fosdem.org/pipermail/fosdem/2019q4/002931.html)
 
 There is still time to submit a session for the Kotlin DevRoom.
-Don't miss the opportunity to be part of the speakers linuep of the first Kotlin DevRoom.
+Don't miss the opportunity to be part of the speaker lineup of the first Kotlin DevRoom.
 
 We welcome any talk proposals about Kotlin-related projects.
+
 Topics of interest include:
 
 * Kotlin Language
@@ -108,11 +107,11 @@ Submit your talk proposal and we will hopefully see you in Brussels!
 
 # Contacts
 
-If you're having problem or questions related to the Kotlin DevRoom, please join the [**#fosdem channel**](https://kotlinlang.slack.com/messages/fosdem) on the Kotlinlang Slack
+If you're having problems or questions related to the Kotlin DevRoom, please join the [**#fosdem channel**](https://kotlinlang.slack.com/messages/fosdem) on the Kotlinlang Slack
 ([sign up here](https://t.co/kwvW0nQzRf?amp=1)).
 
 # Acknowledgement
 
-I want to say thank you to [Eugenio Marletti](https://twitter.com/workingkills) and [Erik Hellman](https://twitter.com/ErikHellman) for supporting me with the DevRoom organization. Moreover I want to thank the Kotlin Community for supporting the DevRoom initial proposal and for making this project possible.
+I want to say thank you to [Eugenio Marletti](https://twitter.com/workingkills) and [Erik Hellman](https://twitter.com/ErikHellman) for supporting me with the DevRoom organization. Moreover, I want to thank the Kotlin Community for supporting the DevRoom initial proposal and for making this project possible.
 
 Looking forward to meeting you in Brussels 🇧🇪 next year!
