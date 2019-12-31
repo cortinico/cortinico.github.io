@@ -20,6 +20,7 @@ header:
  
 ## 2019
 
+* GDG Pisa - [Android Development for Dummies](https://www.meetup.com/GDG-Pisa/events/267072294/) 
 * Droidcon Greece 2019 - [<i class="fab fa-slideshare"></i> Let me write your networking code!](http://bit.ly/slides-codegen)
 * Droidcon Lisbon 2019 - [<i class="fab fa-slideshare"></i> I have no idea what my app is doing ¯\\\_(ツ)_/¯](http://bit.ly/ihavenoideawhatmyappisdoing)
 * Droidcon Greece 2019 - [Call-for-paper Committee](https://droidcon.gr/)
