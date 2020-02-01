@@ -13,9 +13,11 @@ header:
     show_overlay_excerpt: false
 ---
 
-## Upcoming
+## 2020
 
-* [FOSDEM 2020](https://fosdem.org/) - **Kotlin DevRoom Organizer**
+* [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - From Swagger to Kotlin via Gradle (video/slides coming soon).
+{: .talk-section }
+* [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
  
 ## 2019
