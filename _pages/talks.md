@@ -13,6 +13,11 @@ header:
     show_overlay_excerpt: false
 ---
 
+## Upcoming
+
+* [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
+{: .talk-section }
+
 ## 2020
 
 * [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - From Swagger to Kotlin via Gradle (video/slides coming soon).
