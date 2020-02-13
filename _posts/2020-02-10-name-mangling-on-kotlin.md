@@ -22,9 +22,9 @@ If you've played a bit around with Kotlin, chances are that you faced **name man
 
 Name mangling is a technique used by the Kotlin Compiler to alter the name of identifiers (e.g. function or variable names). This technique can be used to make  identifiers harder to access in the bytecode.
 
-I personally discovered name mangling while preparing the release `v3.1.0` of [Chucker](https://github.com/ChuckerTeam/chucker). Before releasing a new version of a library, I generally inspect the API surface to make sure I'm not introducing any unintended change to the API with a tool like [japicmp](https://github.com/siom79/japicmp).
+I discovered name mangling while preparing the release `v3.1.0` of [Chucker](https://github.com/ChuckerTeam/chucker). Before releasing a new version of a library, I generally inspect the API surface to make sure I'm not introducing any unintended change to the API with a tool like [japicmp](https://github.com/siom79/japicmp).
 
-This time I noticed that I was actually removing a method and adding a new one, and that was obviously not expected, as it's definitely a breaking change 🤨.
+This time I noticed that I was removing a method and adding a new one, and that was not expected, as it will result in a breaking change 🤨.
 
 This was due to name mangling. Let's see two scenarios where name mangling is used inside the Kotlin compiler: **inline classes** and the **internal modifier**.
 
@@ -51,7 +51,7 @@ fun login(username : Username, password : Password)
 
 Inline classes provide **type safety** at compile type, so you're sure you're not mixing up username and passwords of your users.
 
-To overcome wrapping/unwrapping overhead, the Kotlin compiler is actually generating bytecode that uses the **underlying type** of the inline class.
+To overcome wrapping/unwrapping overhead, the Kotlin compiler is generating bytecode that uses the **underlying type** of the inline class.
 
 This could lead to problematic scenarios. For example, if you happen to have a method overload with an inline class:
 
@@ -78,13 +78,13 @@ public final void validate_3mN7H_Y/* $FF was: validate-3mN7H-Y*/(@NotNull String
 
 It's interesting to note that the `-` char introduced by the mangling is an invalid character in Java. This is making the function that accepts an inline class **impossible to use from Java**.
 
-This is actually by design, but it's definitely worth noting when creating APIs that should be consumed by Java users.
+This is actually by design, but it's worth noting when creating APIs that should be consumed by Java users.
 
 # Internal Modifier
 
 Kotlin gave us a new visibility modifier: `internal`. If you're not familiar with this modifier: it restricts the visibility of a declaration to the same [module](https://kotlinlang.org/docs/reference/visibility-modifiers.html#modules).
 
-The `internal` modifier is really handy when dealing with modularized projects, since it allows to easily contain the exposed API. Unfortunately, there is no support for the `internal` modifier neither in Java nor in the bytecode.
+The `internal` modifier is handy when dealing with modularized projects, since it allows to easily contain the exposed API. Unfortunately, there is no support for the `internal` modifier neither in Java nor in the bytecode.
 
 `internal` declarations in Kotlin are compiled to **`public` declarations** in Java. In other words: your `internal` function, classes, interfaces, variables etc. are accessible by Java classes **outside** of your module. 
 
