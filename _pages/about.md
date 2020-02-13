@@ -17,8 +17,7 @@ I'm an **Android Engineer** a **Community Lover** and a **Traveller**.
 
 ## Android
 
-I'm working as an Android Infrastructure Engineer at [<i class="fab fa-yelp"></i> Yelp](https://yelp.com/)
-, connecting millions of users with great local businesses worldwide. My main role is to develop libraries and tool for the Android Community at Yelp. I'm committed to provide high quality material and I love to engage my colleagues into new technologies.
+I'm working as an Android Infrastructure Engineer at [<i class="fab fa-spotify"></i> Spotify](https://spotify.com/), creating an amazing listening experience for millions of Android users worldwide. My main role is to develop libraries and tool for the Android Community at Spotify. I'm committed to provide high quality material and I love to engage my colleagues into new technologies.
 
 I have a serious thing for good design. I just want to take care of every single pixel on your screen, to deliver the best user experience to the final user.
 
