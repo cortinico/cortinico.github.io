@@ -1,5 +1,5 @@
 ---
-title: "Name Mangling on Kotlin"
+title: "Name Mangling in Kotlin"
 categories: "Kotlin"
 
 excerpt: "Let's discover two scenarios where name mangling is used in the Kotlin Compiler: inline classes and the internal modifier"
