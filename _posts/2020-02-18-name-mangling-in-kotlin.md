@@ -37,7 +37,7 @@ An example could be a having `Username`/`Password` inline classes to wrap `Strin
 So for Example, your login function:
 
 ```kotlin
-fun login(username : String, password : String)
+fun login(username: String, password: String)
 ```
 
 could be improved using inline classes in:
@@ -46,7 +46,7 @@ could be improved using inline classes in:
 inline class Username(val value: String)
 inline class Password(val value: String)
 
-fun login(username : Username, password : Password)
+fun login(username: Username, password: Password)
 ```
 
 Inline classes provide **type safety** at compile type, so you're sure you're not mixing up username and passwords of your users.
@@ -56,8 +56,8 @@ To overcome wrapping/unwrapping overhead, the Kotlin compiler is generating byte
 This could lead to problematic scenarios. For example, if you happen to have a method overload with an inline class:
 
 ```kotlin
-fun validate(password : String)
-fun validate(password : Password)
+fun validate(password: String)
+fun validate(password: Password)
 ```
 
 The Kotlin compiler would have to generate two functions with the same signature.
