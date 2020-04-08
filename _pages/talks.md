@@ -20,8 +20,8 @@ header:
 
 ## 2020
 
+* GDG Stockholm Android - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive](https://youtu.be/B1ezr5rrpq8)
 * [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - From Swagger to Kotlin via Gradle (video/slides coming soon).
-{: .talk-section }
 * [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
  
