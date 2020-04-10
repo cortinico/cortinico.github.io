@@ -16,6 +16,7 @@ header:
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
+* Android Developers Italia - Kotlin keywords deep-dive
 {: .talk-section }
 
 ## 2020
