@@ -16,12 +16,13 @@ header:
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
-* Android Developers Italia - Kotlin keywords deep-dive
-{: .talk-section }
+* GDG DevParty Together - Devops-ify your life with Github Actions
 
 ## 2020
 
-* GDG Stockholm Android - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive](https://youtu.be/B1ezr5rrpq8)
+* Android Developers Italia - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive (in 🇮🇹)](https://youtu.be/p_URjhF4gvo)
+* GDG Pisa - [<i class="fab fa-youtube"></i> Kotlin from scratch...without the JVM!](https://youtu.be/y1xIp-DG2aw)
+* GDG Stockholm Android - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive (in 🇬🇧)](https://youtu.be/B1ezr5rrpq8)
 * [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - [From Swagger to Kotlin via Gradle (<i class="fab fa-youtube"></i> video/ <i class="fab fa-slideshare"></i> slides)](https://fosdem.org/2020/schedule/event/kotlin_from_swagger_to_kotlin/).
 * [FOSDEM 2020](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
