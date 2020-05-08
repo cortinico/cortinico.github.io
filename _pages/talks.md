@@ -18,11 +18,11 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
-* GDG DevParty Together - Devops-ify your life with Github Actions
 {: .talk-section }
 
 ## 2020
 
+* GDG DevParty Together - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇮🇹)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://bit.ly/ghactions-video)
 * Android Developers Italia - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive (in 🇮🇹)](https://youtu.be/p_URjhF4gvo)
 * GDG Pisa - [<i class="fab fa-youtube"></i> Kotlin from scratch...without the JVM!](https://youtu.be/y1xIp-DG2aw)
 * GDG Stockholm Android - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive](https://youtu.be/B1ezr5rrpq8)
