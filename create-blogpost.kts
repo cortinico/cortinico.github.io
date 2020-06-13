@@ -6,6 +6,7 @@ import picocli.CommandLine.Command
 import picocli.CommandLine.Option
 import picocli.CommandLine.Parameters
 import java.io.File
+import java.nio.file.*
 import java.util.concurrent.Callable
 import java.time.*
 import java.time.format.*
@@ -28,8 +29,9 @@ class GenerateSnippets : Callable<Int> {
         val date = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyy-MM-dd"))
         val id = title.toLowerCase().replace(" ", "-")
         val filename = "./_posts/$date-$id.md"
-        val headerFilename = "./assets/images/posts/header-$id.jpg"
-        val teaserFilename = "./assets/images/posts/teaser-$id.jpg"
+        val imageFolder = "./assets/images/posts/$id"
+        val headerFilename = "$imageFolder/header.jpg"
+        val teaserFilename = "$imageFolder/teaser.jpg"
 
         // language=YAML
         val content = """
@@ -44,12 +46,15 @@ class GenerateSnippets : Callable<Int> {
                 teaser: "$teaserFilename"
                 caption: "Stockholm - Sweden"
             ---
+
+            ![sample-image]($headerFilename)
         """.trimIndent()
 
         File(filename).writeText(content)
 
         if (image.isNotBlank()) {
             info("Resizing your image...", "")
+            Files.createDirectories(Paths.get(imageFolder));
             "mogrify -resize 1920x -quality 85 -write $headerFilename $image".runCommand()
             "mogrify -resize 600x -quality 85 -write $teaserFilename $image".runCommand()
         } else {
