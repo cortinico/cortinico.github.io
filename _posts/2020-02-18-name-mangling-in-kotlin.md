@@ -7,7 +7,7 @@ excerpt: "Let's discover two scenarios where name mangling is used in the Kotlin
 header:
     image: "/assets/images/posts/header-name-mangling.jpg"
     teaser: "/assets/images/posts/teaser-name-mangling.jpg"
-    caption: "Sarajevo - Bosnia and Herzegovina"
+    caption: "Baščaršija - Sarajevo, Bosnia and Herzegovina"
 ---
 
 <blockquote>

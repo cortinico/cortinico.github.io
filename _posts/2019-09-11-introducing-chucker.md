@@ -7,7 +7,7 @@ excerpt: "Chucker is a simple library to inspect OkHTTP traffic directly on your
 header:
     image: "/assets/images/posts/header-introducing-chucker.jpg"
     teaser: "/assets/images/posts/teaser-introducing-chucker.jpg"
-    caption: "San Francisco - California"
+    caption: "MoMa - San Francisco, California"
 ---
 
 Nearly one year ago I stumbled upon this blogpost: [Top 10 Android Libraries Every Android Developer Should Know About](https://infinum.co/the-capsized-eight/top-10-android-libraries-every-android-developer-should-know-about). 

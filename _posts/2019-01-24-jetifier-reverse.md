@@ -7,7 +7,7 @@ excerpt: "How to use AndroidX migrated libraries on not yet migrated Android pro
 header:
     image: "/assets/images/posts/header-jetifier-reverse.jpg"
     teaser: "/assets/images/posts/teaser-jetifier-reverse.jpg"
-    caption: "Santa Cruz - California"
+    caption: "Mitchell's Cove Beach - Santa Cruz, California"
 ---
 
 If you're working with Android nowadays, you'll probably be familiar with **Android X**, the _major package renaming_ of the Android Support library announced at Google I/O 2018. It's time to migrate!

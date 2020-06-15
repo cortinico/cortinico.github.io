@@ -7,7 +7,7 @@ excerpt: "Let's discover Kotlin Contracts, one of the new features of Kotlin 1.3
 header:
     image: "/assets/images/posts/header-kotlin-contracts.jpg"
     teaser: "/assets/images/posts/teaser-kotlin-contracts.jpg"
-    caption: "Hook Lighthouse - Ireland"
+    caption: "Hook Lighthouse - Wexford, Ireland"
 ---
 
 The next release of Kotlin, 1.3, is really near! Among the several features, I really enjoyed one that will allow library developers to write cleaner and better code: Kotlin contracts. 

@@ -7,7 +7,7 @@ excerpt: "Code reuse is fundamental, especially in tests. In this blogposts we'l
 header:
     image: "/assets/images/posts/header-junit-rules.jpg"
     teaser: "/assets/images/posts/teaser-junit-rules.jpg"
-    caption: "Golden Gate Bridge - SF"
+    caption: "Golden Gate Bridge - San Francisco, California"
 ---
 
 Today I saw yet another JUnit test that was extending a superclass...this is me just after:

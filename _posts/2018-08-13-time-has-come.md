@@ -5,7 +5,7 @@ excerpt: "Welcome to my new website"
 header:
   image: "/assets/images/post1.jpg"
   teaser: "/assets/images/post1.jpg"
-  caption: "Milan Central Station - Italy"
+  caption: "Milan Central Station - Milan, Italy"
   
 ---
 

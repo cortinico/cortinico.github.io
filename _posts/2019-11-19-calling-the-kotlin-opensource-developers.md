@@ -7,7 +7,7 @@ excerpt: "Announcing the Kotlin DevRoom at FOSDEM 2020 and how you can participa
 header:
     image: "/assets/images/posts/header-calling-the-kotlin-opensource-developers.jpg"
     teaser: "/assets/images/posts/teaser-calling-the-kotlin-opensource-developers.jpg"
-    caption: "Brussels - Belgium"
+    caption: "Square de l'Atomium - Brussels, Belgium"
 ---
 
 Hi fellow Kotliners,
