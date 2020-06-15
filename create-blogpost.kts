@@ -44,7 +44,7 @@ class GenerateSnippets : Callable<Int> {
             header:
                 image: "$headerFilename"
                 teaser: "$teaserFilename"
-                caption: "Stockholm - Sweden"
+                caption: "Royal Djurgården - Stockholm, Sweden"
             ---
 
             ![sample-image]($headerFilename)
