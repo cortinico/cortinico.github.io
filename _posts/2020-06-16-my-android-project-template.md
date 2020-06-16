@@ -39,7 +39,7 @@ In this blog-post, I will walk you through the **steps I do before starting** an
 
 The clear choice I made in this template is to have it as a **100% Kotlin** template. I believe that in 2020 is safe to assume that you can start your new Android project with Kotlin only.
 
-I generally don't start writing code without a **good formatter** to support me. Having several comments on your pull-requests about where to place parenthesis or extre white-spaces can be pretty annoying. A **formatter** can help you ship beautified code and avoid useless discussions. 
+I generally don't start writing code without a **good formatter** to support me. Having several comments on your pull-requests about where to place parenthesis or extra white-spaces can be pretty annoying. A **formatter** can help you ship beautified code and avoid useless discussions. 
 
 For Kotlin my preferred formatter is [**ktlint**](https://github.com/pinterest/ktlint). 
 
