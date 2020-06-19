@@ -201,6 +201,17 @@ h3.archive__date {
 }
 
 /*
+  IFRAMES
+  ======================= */
+
+.plkotlin {
+  width: 100%;
+  height: auto;
+  min-height: 320px;
+  border-width: 0;
+}
+
+/*
    HEADER BOX
    ========================================================================== */
 
@@ -219,7 +230,7 @@ h3.archive__date {
       border-radius: 50%;
 
       padding: 8px;
-      border: 3px solid #f2f2f2;      
+      border: 3px solid #f2f2f2;
     }
   }
 
