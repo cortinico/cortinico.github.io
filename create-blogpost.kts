@@ -47,7 +47,7 @@ class GenerateSnippets : Callable<Int> {
                 caption: "Royal Djurgården - Stockholm, Sweden"
             ---
 
-            ![sample-image]($headerFilename)
+            ![sample-image](${headerFilename.drop(1)})
         """.trimIndent()
 
         File(filename).writeText(content)
