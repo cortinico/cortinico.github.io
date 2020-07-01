@@ -13,6 +13,13 @@ header:
     overlay_image: "/assets/images/header-projects.jpg"
     show_overlay_excerpt: false
 ---
+
+## detekt
+
+<a class="github-button" href="https://github.com/detekt/detekt" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star detekt/detekt on GitHub">Star</a> <a class="github-button" href="https://github.com/detekt/detekt/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork detekt/detekt on GitHub">Fork</a>
+
+🤝 I'm one of the maintainer of Detekt, a powerful static analyzer for Kotlin code.
+
 ## slidetoact
 
 <a class="github-button" href="https://github.com/cortinico/slidetoact" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star cortinico/slidetoact on GitHub">Star</a> <a class="github-button" href="https://github.com/cortinico/slidetoact/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork cortinico/slidetoact on GitHub">Fork</a>
