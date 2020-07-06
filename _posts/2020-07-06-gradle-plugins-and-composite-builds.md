@@ -2,7 +2,7 @@
 title: "Gradle Plugins and Composite Builds"
 categories: "Kotlin"
 
-excerpt: "How Composite Builds can simplify your Gradle build, especially if your building a custom Gradle Plugin."
+excerpt: "How Composite Builds can simplify your Gradle build, especially if you're building a custom Gradle Plugin."
 
 header:
     image: "./assets/images/posts/gradle-plugins-and-composite-builds/header.jpg"
