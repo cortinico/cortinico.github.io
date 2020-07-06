@@ -12,11 +12,11 @@ header:
 
 Over the last couple of weeks, I had the opportunity to help other Android/Kotlin developers struggling with Gradle 🐘, specifically with Gradle [custom plugins](https://docs.gradle.org/current/userguide/custom_plugins.html). To my surprise, none of them knew about a feature of Gradle called [composite builds](https://docs.gradle.org/current/userguide/composite_builds.html). 
 
-**Composite build** is a great tool to support the development of custom Gradle plugin as they help to streamline the development cycle. 
+**Composite builds** are a great tool to support the development of custom Gradle plugin as they help to streamline the development cycle. 
 
 In this blog-post, we will discover the composite build feature, and how it can support you when writing Gradle plugins. Lately, we will walk through the **pros & cons** of this approach.
 
-All the examples presented in this blog-post comes from this **Github template**, that contains a setuAp for a custom Gradle plugin using composite builds:
+All the examples presented in this blog-post comes from this **Github template**, that contains a setup for a custom Gradle plugin using composite builds:
 
 [cortinico/kotlin-gradle-plugin-template](https://github.com/cortinico/kotlin-gradle-plugin-template)
 
