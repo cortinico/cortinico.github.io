@@ -22,6 +22,8 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2020
 
+
+* Shift Remote Mobile - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions)
 * Kotlin Mumbai User Group - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/3b8qOSHxGIw)
 * GDG DevParty UK & Ireland - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/rR6ARVVfK5I?t=2667)
 * GDG DevParty Together - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇮🇹)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://bit.ly/ghactions-video)
