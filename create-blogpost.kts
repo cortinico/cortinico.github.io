@@ -38,6 +38,7 @@ class GenerateSnippets : Callable<Int> {
             ---
             title: "$title"
             categories: "Android"
+            published: false
 
             excerpt: "TODO"
 
