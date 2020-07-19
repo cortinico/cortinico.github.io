@@ -48,7 +48,40 @@ class GenerateSnippets : Callable<Int> {
                 caption: "Royal Djurgården - Stockholm, Sweden"
             ---
 
+            # Source Code
+
+            {% highlight kotlin linenos %}
+            val thisIs = "Some kotlin code with line numbers"
+            {% endhighlight %}
+
+            # Notice Boxes
+
+            Single line Info Box
+            {: .notice--info}
+
+            Single line Warning Box
+            {: .notice--warning}
+
+            Single line Danger Box
+            {: .notice--danger}
+
+            {% capture notice-info %}
+            **Multi Line Info Box**
+
+            Where you can put code, images and whatsoever needed
+            {% endcapture %}
+
+            <div class="notice--info">{{ notice-info | markdownify }}</div>
+
+            # Images
+
             ![sample-image](${headerFilename.drop(1)})
+
+            <figure>
+                <img src="${headerFilename.drop(1)}" alt="image with caption">
+                <figcaption>Caption goes here</figcaption>
+            </figure>
+
         """.trimIndent()
 
         File(filename).writeText(content)
