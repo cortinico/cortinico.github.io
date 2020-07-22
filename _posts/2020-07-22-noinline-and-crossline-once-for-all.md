@@ -320,7 +320,7 @@ The full example of this article is available in this playground:
 
 I hope that with some examples, the `inline`, `noinline`, and `crossinline` keywords are clearer now.
 
-Happy inlining 🎉
+Happy inlining 🚇
 
 # References
 
