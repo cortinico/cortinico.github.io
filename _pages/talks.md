@@ -22,10 +22,10 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2020
 
-* Android Stream Day - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions)
-* Shift Remote Mobile - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions)
-* Kotlin Mumbai User Group - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/3b8qOSHxGIw)
-* GDG DevParty UK & Ireland - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇬🇧)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/rR6ARVVfK5I?t=2667)
+* Android Stream Day - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
+* Shift Remote Mobile - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
+* Kotlin Mumbai User Group - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/3b8qOSHxGIw)
+* GDG DevParty UK & Ireland - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/rR6ARVVfK5I?t=2667)
 * GDG DevParty Together - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions (in 🇮🇹)](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://bit.ly/ghactions-video)
 * Android Developers Italia - [<i class="fab fa-youtube"></i> Kotlin keywords deep-dive (in 🇮🇹)](https://youtu.be/p_URjhF4gvo)
 * GDG Pisa - [<i class="fab fa-youtube"></i> Kotlin from scratch...without the JVM!](https://youtu.be/y1xIp-DG2aw)
