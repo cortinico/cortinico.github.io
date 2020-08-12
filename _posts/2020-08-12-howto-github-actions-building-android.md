@@ -78,14 +78,14 @@ But there are still several features that are missing first-party support:
 
 > Github is sadly not in great shape recently 
 
-The platform suffered [several downtimes](https://www.githubstatus.com/) 😕, affecting also Github Actions. 
+The platform suffered [several downtimes](https://www.githubstatus.com/) recently 😕, affecting also Github Actions. 
 Migrating your CI from another service to Github exposes you to such downtimes.
 
 Once Github is down, both your code and your CI will be unavailable. Having your CI on another service will allow you to keep on building even when Github is on fire.
 
 <figure>
     <img src="/assets/images/posts/howto-github-actions-building-android/actions-status.png" alt="status dashboard of Github Actions">
-    <figcaption>Last 30 days of Github Actions on githubstatus.com</figcaption>
+    <figcaption>Status of Github Actions on githubstatus.com during July</figcaption>
 </figure>
 
 # Setting up your CI
@@ -185,7 +185,7 @@ steps:
 
 Each step can either invoke another action with `uses` or execute a shell command with `run`.
 
-Our steps are trivial: first checkout the repo and then build it. If the job finishes with exit code 0 (Gradle `BUILD SUCCESSFUL`) that will make the workflow succeed.
+Our steps are trivial: first checkout the repo and then build it. If the job finishes with exit code 0 (i.e. Gradle `BUILD SUCCESSFUL`) that will make the workflow succeed.
 
 ```yaml
 uses: actions/checkout@v2
