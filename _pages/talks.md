@@ -18,8 +18,9 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
-{: .talk-section }
 * DevOps World 2020 - Tales of a Mobile Devops Engineer
+* Droidcon EMEA 2020 - TBA
+* {: .talk-section }
 
 ## 2020
 
