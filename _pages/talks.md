@@ -18,13 +18,13 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
-* DevOps World 2020 - Tales of a Mobile Devops Engineer
 * Android Summit 2020 - Tales of a Mobile Devops Engineer
 * Droidcon EMEA 2020 - TBA
 {: .talk-section }
 
 ## 2020
 
+* DevOps World 2020 - Tales of a Mobile Devops Engineer
 * Android Stream Day - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * Shift Remote Mobile - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * Kotlin Mumbai User Group - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/3b8qOSHxGIw)
