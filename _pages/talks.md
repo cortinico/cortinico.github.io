@@ -18,7 +18,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - **Call-for-paper Committee**.
-* DevFest Sweden 2020 - Conference Organizer
+* [DevFest Sweden 2020](https://devfest.se) - Conference Organizer
 {: .talk-section }
 
 ## 2020
