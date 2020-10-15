@@ -23,6 +23,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2020
 
+* DevFest Norway 2020 - Tales of a Mobile Devops Engineer
 * Android Summit 2020 - Tales of a Mobile Devops Engineer
 * Droidcon EMEA 2020 - Rolling Out like a Rock Star!
 * DevOps World 2020 - Tales of a Mobile Devops Engineer
