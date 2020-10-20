@@ -28,7 +28,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 * DevFest Norway 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
 * Android Summit 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
 * Droidcon EMEA 2020 - Rolling Out like a Rock Star!
-* DevOps World 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
+* DevOps World 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://www.cloudbees.com/resources/mobile-devops-engineer)
 * Android Stream Day - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * Shift Remote Mobile - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * Kotlin Mumbai User Group - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/3b8qOSHxGIw)
