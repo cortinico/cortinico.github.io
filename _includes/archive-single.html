@@ -22,11 +22,6 @@
         </h2>
         <h3 class="archive__date">{{ post.date | date_to_string }}</h3>
       </div>
-      {% if teaser %}
-        <a href="{{ post.url | absolute_url }}" rel="permalink">
-          <div class="archive__item-teaser-imageclickhandler"></div>
-        </a>
-      {% endif %}
     </div>
     {% if post.read_time %}
       <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
