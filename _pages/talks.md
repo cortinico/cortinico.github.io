@@ -23,7 +23,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2020
 
-* DevFest Italy 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
+* DevFest Italy 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops (in 🇮🇹)](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://youtu.be/JtXIbMGNR34)
 * [DevFest Italy 2020](https://devfest.it) - Conference Organizer
 * [DevFest Sweden 2020](https://devfest.se) - Conference Organizer
 * DevFest Norway 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://youtu.be/amSSIK-mQSI?t=1887)
