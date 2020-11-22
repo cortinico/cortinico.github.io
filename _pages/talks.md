@@ -18,12 +18,12 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 ## Upcoming
 
 * [Droidcon Italy](https://droidcon.it) - [Call-for-paper Committee](https://it.droidcon.com/2020/about/?ectid=255602&ectmode=campaign&ectttl=7).
-* Droidcon Americas - Tales of a Mobile Devops
-* DevCon Live - Tales of a Mobile Devops
 {: .talk-section }
 
 ## 2020
 
+* Droidcon Americas - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/media-detail?video=481208950)
+* DevCon Live - Tales of a Mobile Devops
 * DevFest Italy 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops (in 🇮🇹)](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://youtu.be/JtXIbMGNR34)
 * [DevFest Italy 2020](https://devfest.it) - Conference Organizer
 * [DevFest Sweden 2020](https://devfest.se) - Conference Organizer
