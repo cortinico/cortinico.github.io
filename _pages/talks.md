@@ -22,6 +22,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2020
 
+* Kotlin User Group Hamburg - There is 1 broken API among us
 * Droidcon Americas - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/media-detail?video=481208950)
 * DevCon Live - Tales of a Mobile Devops
 * DevFest Italy 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops (in 🇮🇹)](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://youtu.be/JtXIbMGNR34)
