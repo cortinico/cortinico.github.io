@@ -21,7 +21,8 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2020
 
-* [Droidcon Italy](https://droidcon.it) - [Call-for-paper Committee](https://it.droidcon.com/2020/about/?ectid=255602&ectmode=campaign&ectttl=7).
+* Droidcon Italy - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
+* Droidcon Italy - [Call-for-paper Committee](https://it.droidcon.com/2020/about/?ectid=255602&ectmode=campaign&ectttl=7).
 * Kotlin Virtual User Group - There is 1 broken API among us
 * Kotlin User Group Hamburg - There is 1 broken API among us
 * Droidcon Americas - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/media-detail?video=481208950)
