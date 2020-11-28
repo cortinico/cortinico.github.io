@@ -17,6 +17,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## Upcoming
 
+* Droidcon APAC - Tales of a Mobile Devops
 {: .talk-section }
 
 ## 2020
