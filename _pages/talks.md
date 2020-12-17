@@ -17,11 +17,16 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## Upcoming
 
-* Droidcon APAC - Tales of a Mobile Devops
+* [FOSDEM 2021](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
 
 ## 2020
 
+* Talking with Apples Podcast - [<i class="fas fa-podcast"></i> Talking Mobile DevOps](https://anchor.fm/talkingwithapples/episodes/Talking-Mobile-DevOps-With-Nicola-Corti-eng5sa)
+* Droidcon APAC - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/media-detail?video=491026583)
+* Community Connect 2020 - Presenting Virtually
+* DSC Kalinga Institute of Industrial Technology (KIIT) - [<i class="fab fa-youtube"></i> #AndroidDev Roadmap 2020](https://youtu.be/1fyJgm8l0Ys)
+* GDG Nagpur - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
 * Droidcon Italy - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
 * Droidcon Italy - [Call-for-paper Committee](https://it.droidcon.com/2020/about/?ectid=255602&ectmode=campaign&ectttl=7).
 * Kotlin Virtual User Group - There is 1 broken API among us
