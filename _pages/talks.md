@@ -20,6 +20,10 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 * [FOSDEM 2021](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
 
+## 2021
+* Pointer Podcast - [<i class="fas fa-podcast"></i> pointer[35]: Kotlin, community e Open Source con Nicola Corti (in 🇮🇹)](https://pointerpodcast.it/podcast/pointer35-kotlin-community-e-open-source-con-nicola-corti/)
+{: .talk-section }
+
 ## 2020
 
 * Talking with Apples Podcast - [<i class="fas fa-podcast"></i> Talking Mobile DevOps](https://anchor.fm/talkingwithapples/episodes/Talking-Mobile-DevOps-With-Nicola-Corti-eng5sa)
