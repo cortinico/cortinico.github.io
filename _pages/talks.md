@@ -17,6 +17,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## Upcoming
 
+* JFokus 2021 - TBA
 * [FOSDEM 2021](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
 
