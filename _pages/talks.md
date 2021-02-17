@@ -15,13 +15,14 @@ header:
 
 Do you want me to speak at your conference/meetup? You can find my talks/abstracts on the [Sessionize Profile](https://sessionize.com/cortinico/)
 
-## Upcoming
+## 2021
 
+* Hello Mondo Podcast - [<i class="fas fa-podcast"></i> Episode 5 (in 🇮🇹)](https://anchor.fm/hellomondopod/episodes/5---Nicola-Corti-eqdb1t)
+* GDG Hannover - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * JFokus 2021 - Rolling Out like a Rock Star!
 * [FOSDEM 2021](https://fosdem.org/2020/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
-{: .talk-section }
-
-## 2021
+* DevFest DACH - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://youtu.be/IyLqBUNjLFg)
+* DSC BVP - Jaypee Institute of Information Technology - [<i class="fab fa-youtube"></i> #AndroidDev Roadmap 2021](https://youtu.be/S7YPAMA1Tig)
 * Pointer Podcast - [<i class="fas fa-podcast"></i> pointer[35]: Kotlin, community e Open Source con Nicola Corti (in 🇮🇹)](https://pointerpodcast.it/podcast/pointer35-kotlin-community-e-open-source-con-nicola-corti/)
 {: .talk-section }
 
