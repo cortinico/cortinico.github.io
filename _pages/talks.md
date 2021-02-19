@@ -33,7 +33,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 * Community Connect 2020 - Presenting Virtually
 * DSC Kalinga Institute of Industrial Technology (KIIT) - [<i class="fab fa-youtube"></i> #AndroidDev Roadmap 2020](https://youtu.be/1fyJgm8l0Ys)
 * GDG Nagpur - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
-* Droidcon Italy - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops)
+* Droidcon Italy - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://youtu.be/SWQG_oDn9zM)
 * Droidcon Italy - [Call-for-paper Committee](https://it.droidcon.com/2020/about/?ectid=255602&ectmode=campaign&ectttl=7).
 * Kotlin Virtual User Group - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi)
 * Kotlin User Group Hamburg - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi) [<i class="fab fa-youtube"></i> Video](https://youtu.be/xqENogbvtrU)
