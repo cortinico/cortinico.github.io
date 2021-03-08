@@ -47,7 +47,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 * Android Summit 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](httpshttps://youtu.be/AWBLQ88v1oM)
 * Droidcon EMEA 2020 - Rolling Out like a Rock Star! [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/media-detail?video=470234673)
 * DevOps World 2020 - [<i class="fab fa-slideshare"></i> Tales of a Mobile Devops](https://bit.ly/mobiledevops) [<i class="fab fa-youtube"></i> Video](https://www.cloudbees.com/resources/mobile-devops-engineer)
-* Android Stream Day - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
+* Android Stream Day - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/mRgR-bMYF1w)
 * Shift Remote Mobile - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * Kotlin Mumbai User Group - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/3b8qOSHxGIw)
 * GDG DevParty UK & Ireland - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions) [<i class="fab fa-youtube"></i> Video](https://youtu.be/rR6ARVVfK5I?t=2667)
