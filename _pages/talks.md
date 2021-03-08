@@ -17,6 +17,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2021
 
+* Kotlin London User Group - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi)
 * Hello Mondo Podcast - [<i class="fas fa-podcast"></i> Episode 5 (in 🇮🇹)](https://anchor.fm/hellomondopod/episodes/5---Nicola-Corti-eqdb1t)
 * GDG Hannover - [<i class="fab fa-slideshare"></i> Devops-ify your life with Github Actions](https://bit.ly/ghactions)
 * JFokus 2021 - Rolling Out like a Rock Star!
