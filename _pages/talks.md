@@ -17,6 +17,10 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2021
 
+* Droidcon London 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion)
+* Droidcon Berlin 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2021/11/10/detekt-state-of-the-union/)
+* Droidcon Italy - [Call-for-paper Committee](https://it.droidcon.com/2021/about/).
+* DevTalks Reimagined 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion)
 * GDG Hamburg Android - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi)
 * Kotlin London User Group - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi) [<i class="fab fa-youtube"></i> Video](https://youtu.be/O83oR0mtUpo?t=156)
 * Hello Mondo Podcast - [<i class="fas fa-podcast"></i> Episode 5 (in 🇮🇹)](https://anchor.fm/hellomondopod/episodes/5---Nicola-Corti-eqdb1t)
