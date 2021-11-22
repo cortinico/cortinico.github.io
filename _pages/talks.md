@@ -17,7 +17,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2021
 
-* Droidcon London 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion)
+* Droidcon London 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/)
 * Droidcon Berlin 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2021/11/10/detekt-state-of-the-union/)
 * Droidcon Italy - [Call-for-paper Committee](https://it.droidcon.com/2021/about/).
 * DevTalks Reimagined 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion)
