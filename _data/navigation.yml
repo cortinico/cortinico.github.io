@@ -8,3 +8,5 @@ main:
     url: /projects
   - title: "About"
     url: /about
+  - title: Podcast
+    url: https://thebakery.dev
