@@ -20,6 +20,25 @@ header:
 
 🤝 I'm one of the maintainer of Detekt, a powerful static analyzer for Kotlin code.
 
+## kotlin-android-template
+
+<a class="github-button" href="https://github.com/cortinico/kotlin-android-template" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star cortinico/kotlin-android-template on GitHub">Star</a> <a class="github-button" href="https://github.com/cortinico/kotlin-android-template/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork cortinico/kotlin-android-template on GitHub">Fork</a>
+
+📐 A template to get you started on Android with minimum effort: Android + Kotlin + Github Actions + ktlint + Detekt + Gradle Kotlin DSL + buildSrc = ❤️
+
+## AppIntro
+
+<a class="github-button" href="https://github.com/AppIntro/AppIntro" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star AppIntro/AppIntro on GitHub">Star</a> <a class="github-button" href="https://github.com/AppIntro/AppIntro/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork AppIntro/AppIntro on GitHub">Fork</a>
+
+🤝 I'm currently maintaining AppIntro, an Android library to make a cool intro for your app with carousel animations, transitions and permission management. 
+
+## Chucker
+
+<a class="github-button" href="https://github.com/ChuckerTeam/chucker" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ChuckerTeam/chucker on GitHub">Star</a> <a class="github-button" href="https://github.com/ChuckerTeam/chucker/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork AppIntro/AppIntro on GitHub">Fork</a>
+
+🔎 An HTTP inspector for Android & OkHTTP (like Charles but on device) - More Chucker than Chuck
+
+
 ## slidetoact
 
 <a class="github-button" href="https://github.com/cortinico/slidetoact" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star cortinico/slidetoact on GitHub">Star</a> <a class="github-button" href="https://github.com/cortinico/slidetoact/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork cortinico/slidetoact on GitHub">Fork</a>
@@ -33,18 +52,6 @@ header:
 💫 A Gradle Plugin to generate your networking code from a Swagger Spec file. 
 
 This plugin wraps the original swagger-codegen, and exposes a configurable `generateSwagger` gradle task that you can plug inside your gradle build/workflows. This plugin is generating Kotlin code and Retrofit interfaces, with RxJava2 for async calls and Moshi for serialization.
-
-## AppIntro
-
-<a class="github-button" href="https://github.com/AppIntro/AppIntro" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star AppIntro/AppIntro on GitHub">Star</a> <a class="github-button" href="https://github.com/AppIntro/AppIntro/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork AppIntro/AppIntro on GitHub">Fork</a>
-
-🤝 I'm currently maintaining AppIntro, an Android library to make a cool intro for your app with carousel animations, transitions and permission management. 
-
-## Chucker
-
-<a class="github-button" href="https://github.com/ChuckerTeam/chucker" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ChuckerTeam/chucker on GitHub">Star</a> <a class="github-button" href="https://github.com/ChuckerTeam/chucker/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork AppIntro/AppIntro on GitHub">Fork</a>
-
-🔎 An HTTP inspector for Android & OkHTTP (like Charles but on device) - More Chucker than Chuck
 
 ## myonnaise
 
