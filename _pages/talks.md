@@ -15,6 +15,13 @@ header:
 
 Do you want me to speak at your conference/meetup? You can find my talks/abstracts on the [Sessionize Profile](https://sessionize.com/cortinico/)
 
+## 2022
+
+* Android Development Global Summit - [Call-for-paper Committee](https://events.geekle.us/android/).
+* DSC Institute of Technology Carlow - #AndroidDev Roadmap 2022
+* [FOSDEM 2022](https://fosdem.org/2022/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
+{: .talk-section }
+
 ## 2021
 
 * Droidcon London 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/)
