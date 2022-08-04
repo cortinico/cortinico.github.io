@@ -17,6 +17,9 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2022
 
+* Droidcon Italy 2022 - [Call-for-paper Committee](https://it.droidcon.com/2022/).
+* Droidcon Berlin 2022 - Open Source at Scale [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2022/08/02/open-source-at-scale/)
+* App.js 2022 - Bringing the New React Native Architecture to the OSS community [<i class="fab fa-youtube"></i> Video](https://youtu.be/te7bwfNsRKg?t=19539)
 * Android Development Global Summit - [Call-for-paper Committee](https://events.geekle.us/android/).
 * DSC Institute of Technology Carlow - #AndroidDev Roadmap 2022
 * [FOSDEM 2022](https://fosdem.org/2022/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
@@ -26,7 +29,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 * Droidcon London 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2021/11/17/detekt-state-of-the-union-2/)
 * Droidcon Berlin 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2021/11/10/detekt-state-of-the-union/)
-* Droidcon Italy - [Call-for-paper Committee](https://it.droidcon.com/2021/about/).
+* Droidcon Italy 2021 - [Call-for-paper Committee](https://it.droidcon.com/2021/about/).
 * DevTalks Reimagined 2021 - [<i class="fab fa-slideshare"></i>Detekt - State of the Union](https://bit.ly/detektstateoftheunion)
 * GDG Hamburg Android - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi)
 * Kotlin London User Group - [<i class="fab fa-slideshare"></i> There is 1 broken API among us](https://bit.ly/brokenapi) [<i class="fab fa-youtube"></i> Video](https://youtu.be/O83oR0mtUpo?t=156)
