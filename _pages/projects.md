@@ -38,12 +38,17 @@ header:
 
 🔎 An HTTP inspector for Android & OkHTTP (like Charles but on device) - More Chucker than Chuck
 
-
 ## slidetoact
 
 <a class="github-button" href="https://github.com/cortinico/slidetoact" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star cortinico/slidetoact on GitHub">Star</a> <a class="github-button" href="https://github.com/cortinico/slidetoact/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork cortinico/slidetoact on GitHub">Fork</a>
 
 📱🎨🦄 A simple _Slide to Unlock_ Material widget for Android. 100% written in Kotlin, and fully customizable.
+
+## kotlin-gradle-plugin-template
+
+<a class="github-button" href="https://github.com/cortinico/kotlin-gradle-plugin-template" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star cortinico/kotlin-gradle-plugin-template on GitHub">Star</a> <a class="github-button" href="https://github.com/cortinico/kotlin-gradle-plugin-template/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork cortinico/kotlin-gradle-plugin-template on GitHub">Fork</a>
+
+🐘 A template to get you started with a Gradle plugin in a matter of seconds!
 
 ## swagger-gradle-codegen
 
