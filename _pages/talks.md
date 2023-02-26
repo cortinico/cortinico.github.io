@@ -15,11 +15,25 @@ header:
 
 Do you want me to speak at your conference/meetup? You can find my talks/abstracts on the [Sessionize Profile](https://sessionize.com/cortinico/)
 
+## 2023
+
+* [FOSDEM 2023](https://fosdem.org/2023/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
+{: .talk-section }
+
 ## 2022
 
+* BerlinDroid 2022 - [<i class="fab fa-slideshare"></i> 22 - Detekt 1.22.0](https://bit.ly/22detekt)
+* React Native Show Podcast - [<i class="fas fa-podcast"></i> Ep. 17 - The New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)
+* Droidcon London 2022 - [<i class="fab fa-slideshare"></i> Open Source at Scale](https://bit.ly/ossatscale) [<i class="fab fa-youtube"></i> Video](TODO)
 * Droidcon Italy 2022 - [Call-for-paper Committee](https://it.droidcon.com/2022/).
-* Droidcon Berlin 2022 - Open Source at Scale [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2022/08/02/open-source-at-scale/)
-* App.js 2022 - Bringing the New React Native Architecture to the OSS community [<i class="fab fa-youtube"></i> Video](https://youtu.be/te7bwfNsRKg?t=19539)
+* Droidcon Berlin 2022 - [<i class="fab fa-slideshare"></i> Open Source at Scale](https://bit.ly/ossatscale) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2022/08/02/open-source-at-scale/)
+* [<i class="fab fa-slideshare"></i> Bringing the New React Native Architecture to the OSS community](https://bit.ly/rn-newarch-slides) - Presented at:
+  * [<i class="fab fa-youtube"></i> App.js 2022](https://youtu.be/te7bwfNsRKg?t=19539)
+  * [<i class="fab fa-youtube"></i> React Finland 2022](https://youtube.com/watch?v=zyTYWAeORKg)
+  * [<i class="fab fa-youtube"></i> React Native EU 2022](https://youtube.com/watch?v=GJxL2aiIX3Q)
+  * React Day Berlin 2022
+  * React Advanced London 2022
+* Coding with Holger Podcast - [<i class="fas fa-podcast"></i> Communities with Olimpiu Pop & Nicola Corti](https://anchor.fm/coding-with-holger/episodes/Communities-with-Olimpiu-Pop--Nicola-Corti-e1f3kik)
 * Android Development Global Summit - [Call-for-paper Committee](https://events.geekle.us/android/).
 * DSC Institute of Technology Carlow - #AndroidDev Roadmap 2022
 * [FOSDEM 2022](https://fosdem.org/2022/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
