@@ -129,7 +129,7 @@ GEM
     tzinfo (2.0.4)
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.4.2)
-    webrick (1.7.0)
+    webrick (1.8.1)
 
 PLATFORMS
   arm64-darwin-21
