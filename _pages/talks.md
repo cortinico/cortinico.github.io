@@ -17,6 +17,19 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2023
 
+* Mobile @ Scale - [<i class="fab fa-youtube"></i> VideoReact Native @ Scale Panel Moderator](https://www.youtube.com/watch?v=F8uG864FSPE)
+* React Summit US 2023 - [Call-for-paper Committee](https://reactsummit.us/).
+* Droidcon London 2023 - [<i class="fab fa-slideshare"></i> Brick by Brick: Building Open Source libraries](https://bit.ly/ossbrickbybrick) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2023/11/15/brick-by-brick-building-open-source-libraries/)
+* [<i class="fab fa-slideshare"></i> The day I broke React Native](https://bit.ly/thedayibrokern) - Presented at:
+  * [<i class="fab fa-youtube"></i> React Native EU 2023](https://www.youtube.com/watch?v=Rers6rpuGTo)
+  * React Day Berlin 2023
+* Droidcon Berlin 2023 - [<i class="fab fa-slideshare"></i> Use Chucker to Catch 'Em All](https://bit.ly/usechucker) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2023/08/01/use-chucker-to-catch-em-all/)
+* [<i class="fab fa-slideshare"></i> To Detekt 2.0, and beyond!](https://bit.ly/todetekt20) - Presented at:
+  * [<i class="fab fa-youtube"></i> KotlinConf 2023](https://www.youtube.com/watch?v=6EQd_SDR6n0)
+  * Kotlin User Group Berlin
+* [<i class="fab fa-slideshare"></i> 22 - A year in Review for React Native](https://bit.ly/22reactnative) - Presented at:
+  * [<i class="fab fa-youtube"></i> App.js 2023](https://www.youtube.com/watch?v=KhN_qwQL0R0)
+  * [<i class="fab fa-youtube"></i> React Native London](https://www.youtube.com/watch?v=QeB1xAJcxtg)
 * [FOSDEM 2023](https://fosdem.org/2023/schedule/track/kotlin/) - **Kotlin DevRoom Organizer**
 {: .talk-section }
 
@@ -24,7 +37,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 * BerlinDroid 2022 - [<i class="fab fa-slideshare"></i> 22 - Detekt 1.22.0](https://bit.ly/22detekt)
 * React Native Show Podcast - [<i class="fas fa-podcast"></i> Ep. 17 - The New Architecture](https://www.callstack.com/podcasts/react-native-new-architecture-ep-17)
-* Droidcon London 2022 - [<i class="fab fa-slideshare"></i> Open Source at Scale](https://bit.ly/ossatscale) [<i class="fab fa-youtube"></i> Video](TODO)
+* Droidcon London 2022 - [<i class="fab fa-slideshare"></i> Open Source at Scale](https://bit.ly/ossatscale) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2022/11/15/open-source-at-scale-london22/)
 * Droidcon Italy 2022 - [Call-for-paper Committee](https://it.droidcon.com/2022/).
 * Droidcon Berlin 2022 - [<i class="fab fa-slideshare"></i> Open Source at Scale](https://bit.ly/ossatscale) [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2022/08/02/open-source-at-scale/)
 * [<i class="fab fa-slideshare"></i> Bringing the New React Native Architecture to the OSS community](https://bit.ly/rn-newarch-slides) - Presented at:
