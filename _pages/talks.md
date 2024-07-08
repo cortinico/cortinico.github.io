@@ -15,6 +15,14 @@ header:
 
 Do you want me to speak at your conference/meetup? You can find my talks/abstracts on the [Sessionize Profile](https://sessionize.com/cortinico/)
 
+## 2024
+
+- App.js 2024 - useFrameworks(); [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=lifGTznLBcw)
+- ReactConf 2024 - **React Native Keynote** [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/live/0ckOUBiuxVY?si=QS24lV_-hudorhXA&t=2320)
+- ReactConf 2024 - React Native Closing Panel [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/live/0ckOUBiuxVY?si=8v-i-Rnai7oZsPbr&t=27936)
+- Spaßatamente Podcast - [<i class="fas fa-podcast"></i> Ep 10: il Burnout (in 🇮🇹)](https://open.spotify.com/episode/6CwOewSgK7fNlo0fru0ACi)
+  {: .talk-section }
+
 ## 2023
 
 - Mobile @ Scale - [<i class="fab fa-youtube"></i> VideoReact Native @ Scale Panel Moderator](https://www.youtube.com/watch?v=F8uG864FSPE)
