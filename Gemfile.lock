@@ -116,7 +116,7 @@ GEM
       ffi (~> 1.0)
     rexml (3.3.1)
       strscan
-    rouge (4.3.0)
+    rouge (4.4.0)
     ruby2_keywords (0.0.5)
     safe_yaml (1.0.5)
     sass-embedded (1.77.5-arm64-darwin)
@@ -144,7 +144,7 @@ DEPENDENCIES
   kramdown (>= 2.3.0)
   minimal-mistakes-jekyll
   nokogiri (>= 1.13.2)
-  rouge (~> 4.3.0)
+  rouge (~> 4.4.0)
   webrick
 
 BUNDLED WITH
