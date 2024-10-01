@@ -15,13 +15,13 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Nicola Corti"
+title                    : "Edwin Ginni"
 title_separator          : "-"
-name                     : "Nicola Corti"
-description              : "Personal website of Nicola Corti. We talk about Android Development, Public Speaking and Community."
-url                      : "https://ncorti.com"
+name                     : "Edwin Ginni"
+description              : "Personal website of Edwin Ginni. We talk about Android Development, Public Speaking and Community."
+url                      : "https://edwinginni.github.io"
 # baseurl                  : "/"
-repository               : "cortinico/cortinico.github.io"
+repository               : "edwinginni/edwinginni.github.io"
 teaser                   : "assets/images/og_default_header.jpg"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 220
@@ -95,16 +95,16 @@ social:
 analytics:
   provider               : "google-universal" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          : "UA-71657172-1" # IMPORTANT: If you clone this repo, please change the tracking id!
+    tracking_id          : # "UA-71657172-1" # IMPORTANT: If you clone this repo, please change the tracking id!
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
-  name             : "Nicola Corti"
+  name             : "Edwin Ginni"
   avatar           : "/assets/images/avatar.png"
   bio              : "Android, Kotlin, Open Source & Public Speaking"
-  location         : "London, UK"
+  location         : "Kisumu, KE"
   email            : "corti.nico@gmail.com"
   uri              : 
   home             : # null (default), "absolute or relative url to link to author home"
@@ -114,19 +114,19 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "cortinico"
+  github           : "edwinginni"
   gitlab           :
   google_plus      :
-  keybase          : "cortinico"
+  keybase          : "edwinginni"
   instagram        : 
   lastfm           :
-  linkedin         : "cortinico"
+  linkedin         : "edwinginni"
   pinterest        :
   soundcloud       :
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          : "cortinico"
+  twitter          : "edwinginni"
   vine             :
   weibo            :
   xing             :
