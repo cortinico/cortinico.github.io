@@ -17,6 +17,10 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 
 ## 2024
 
+- React Day Berlin 2024 - Roundtable: Maintaining an OS Project
+- Droidcon London 2024 - Roundtable: Community-Driven Development - How to Contribute to OSS
+- React Universe 2024 - **What a year for React Native!** [<i class="fab fa-youtube"></i> Video](https://youtu.be/TaHbROUHJKY?si=umE1Iv7MRA__Y2XR)
+- Droidcon Berlin 2024 - Podcasting 101 [<i class="fab fa-youtube"></i> Video](https://www.droidcon.com/2024/08/30/podcasting-101/)
 - App.js 2024 - useFrameworks(); [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=lifGTznLBcw)
 - ReactConf 2024 - **React Native Keynote** [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/live/0ckOUBiuxVY?si=QS24lV_-hudorhXA&t=2320)
 - ReactConf 2024 - React Native Closing Panel [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/live/0ckOUBiuxVY?si=8v-i-Rnai7oZsPbr&t=27936)
