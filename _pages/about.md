@@ -25,7 +25,7 @@ Previously, I spent some time building Android Infrastructure at [<i class="fab 
 
 I love to **build meaningful communities** around me, either online or in real life.
 
-Since 2020, I'm a member of the [GDE (Google Developer Expert) program](https://developers.google.com/community/experts/directory/profile/profile-nicola-corti) in the Kotlin category. I enjoy connecting developers around me and I had the opportunity to build and support the following communities:
+Since 2020, I'm a member of the [GDE (Google Developer Expert) program](https://developers.google.com/community/experts/directory/profile/profile-nicola-corti) in the Android category. I enjoy connecting developers around me and I had the opportunity to build and support the following communities:
 
 * [The GDG (Google Developer Group) chapter in Pisa](https://gdgpisa.it/)
 * [The Kotlin User Group in Hamburg](https://www.meetup.com/Kotlin-User-Group-Hamburg/)
