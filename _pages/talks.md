@@ -16,6 +16,7 @@ header:
 Do you want me to speak at your conference/meetup? You can find my talks/abstracts on the [Sessionize Profile](https://sessionize.com/cortinico/)
 
 ## 2025
+
 - React Advanced London 2025 - Panel: Write Once, Render Anywhere
 - ReactConf 2025 - **React Native Keynote** [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/live/p9OcztRyDl0?si=WozgGIiAWk64_oOX&t=2299)
 - React Universe - Panel: 10 Years of React Native and Beyond [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=V5rgg9w25AY)
