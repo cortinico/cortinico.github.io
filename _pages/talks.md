@@ -15,6 +15,17 @@ header:
 
 Do you want me to speak at your conference/meetup? You can find my talks/abstracts on the [Sessionize Profile](https://sessionize.com/cortinico/)
 
+## 2025
+- React Advanced London 2025 - Panel: Write Once, Render Anywhere
+- ReactConf 2025 - **React Native Keynote** [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/live/p9OcztRyDl0?si=WozgGIiAWk64_oOX&t=2299)
+- React Universe - Panel: 10 Years of React Native and Beyond [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=V5rgg9w25AY)
+- Droidcon Berlin 2025 - What I Learned from Publishing Libraries to Maven Central for 10 Years
+- Droidcon Berlin 2025 - Discussion Room: To Staff and Beyond - Navigating the growth path for engineers
+- Droidcon Berlin 2025 - Discussion Room: Cross-Platform in 2025 - How Are You Building for Mobile Today?
+- DevFest GDG Pisa - What I learned from Five Years of Advent of Code in Kotlin
+- App.js - Life After Legacy: The New Architecture Future [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=In2eDDFzTog)
+ {: .talk-section }
+
 ## 2024
 
 - GDG Pisa - Open Source Tips & Tricks
