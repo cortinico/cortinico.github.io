@@ -25,7 +25,7 @@ Do you want me to speak at your conference/meetup? You can find my talks/abstrac
 - Droidcon Berlin 2025 - Discussion Room: Cross-Platform in 2025 - How Are You Building for Mobile Today?
 - DevFest GDG Pisa - What I learned from Five Years of Advent of Code in Kotlin
 - App.js - Life After Legacy: The New Architecture Future [<i class="fab fa-youtube"></i> Video](https://www.youtube.com/watch?v=In2eDDFzTog)
- {: .talk-section }
+  {: .talk-section }
 
 ## 2024
 
