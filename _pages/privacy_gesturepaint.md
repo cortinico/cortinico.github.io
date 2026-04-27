@@ -2,7 +2,7 @@
 title: "Privacy Policy - Gesture Paint"
 layout: single
 excerpt: "Privacy Policy for Gesture Paint and Gesture Paint Pro"
-sitemap: true
+sitemap: false
 permalink: /apps/gesture-paint/privacy
 author_profile: false
 ---
